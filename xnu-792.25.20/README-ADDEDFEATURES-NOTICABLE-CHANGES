@@ -1,0 +1,61 @@
+Added: 
+-------------
+prepareWithSpecification ( iokit/IOKit/IODMACommand.h iokit/Kernel/IODMACommand.cpp )
+semaphore_signal_internal_trap (osfmk/kern/sync_sema.c )
+mach_exc
+dtrace (bsd/dev/dtrace bsd/sys/makefile bsd/sys proc_internals.h osfmk/kernel/clock.h )
+semaphore_signal_internal_trap (osfmk/kekrn/sync_sema.c)
+mach_exc.defs 
+
+
+gcc-4.2 fixes:
+IOPCIDevice.h (IOPCIBridge*) 
+IOReturn walkAll (iokit/IOKit/IODMACommands.h)
+IORegustryEntry, OSData ( libsa/catalouge.cpp 
+oipcmqueue.h ( IPC_MQEUE_FULL & _RECIEVE )
+ipc_kobject.c ( pos++, pos = pos. reply_header )
+kern_types.h ( cast_event64 )
+sync_sema.c ( SEMAPHORE_EVENT CAST_EVENT64 )
+pmap.c (ppc/limits.h, various)
+
+Changed:
+
+osfmk/default_pager/Makefile : add include path to INCFLAGS_MAKEFILE = + -I./BUILD/obj
+
+--
+unterminated #ifdef:
+bsd/sys/kpi_socketfilter.h (unterminated #ifdef)
+bsd/net/init.h (unterminated #ifdef)
+/bsd/net/kpi_interfacefilter.h
+bsd/net/kpi_protocol.h
+bsd/netinet/ip_fw2_compat.h 
+bsd/netat/aurp_aurpd.c
+bsd/netat/aurp.h
+bsd/netat/aurp_cfg.c
+bsd/netat/aurp_*.c
+
+--
+copied:
+BUILD/obj/mach_machine_routines.h > BUILD/obj/EXPORT_HDRS/osfmk 
+BUILD/obj/RELEASE_PPC/libkern/RELEASE/gprof.h > BUILD/obj/EXPORT_HDRS/osfmk
+machine_timer_routines.h > BUILD/obj/EXPORT_HDRS/osfmk/
+osfmk/db_machine_commands.h > BUILD/obj/EXPORT_HDRS/osfmk/db_machine_commands.h
+serial_console_default.h ./BUILD/obj/EXPORT_HDRS/osfmk/
+vc.h ./BUILD/obj/EXPORT_HDRS/osfmk/
+
+---
+removed #include <debug.h> to keep the build from including whacky code in output from : 
+powerpc-apple-darwin8-g++-4.2.1: lowmem_vectors.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: savearea_asm.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: hw_vm.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: skiplists.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: cswtch.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: movc.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: hw_exception.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: machine_routines_asm.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: vmachmon_asm.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: aligned_data.o: No such file or directory
+powerpc-apple-darwin8-g++-4.2.1: kdp_misc.o: No such file or directory
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/osfmk/ppc/skiplists.s
+osfmk/ppc/cswtch.s
+---

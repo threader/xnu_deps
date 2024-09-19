@@ -1,0 +1,8 @@
+/* : : generated from /tmp/ksh/Build/src/lib/libcmd/features/symlink by iffe version 2011-01-07 : : */
+#ifndef _def_symlink_cmd
+#define _def_symlink_cmd	1
+#define _sys_types	1	/* #include <sys/types.h> ok */
+#define _LIB_ast	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libast.a is a library */
+#define _LIB_iconv	1	/* -liconv is a library */
+#define _lib_lchown	1	/* lchown implemented */
+#endif

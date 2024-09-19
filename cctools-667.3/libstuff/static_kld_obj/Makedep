@@ -1,0 +1,805 @@
+# Dependencies for File: SymLoc.o:
+SymLoc.o: ../SymLoc.c
+# Dependencies for File: allocate.o:
+allocate.o: ../../include/mach/machine.h ../../include/stuff/allocate.h
+allocate.o: ../../include/stuff/errors.h ../allocate.c
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/mach/mach.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/stdlib.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig_errors.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ndr.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/notify.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/exception.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/processor_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_state.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_param.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_map.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/hash_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/ipc_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/lockgroup_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/mach_debug_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/page_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/vm_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/zone_info.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/stdarg.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+allocate.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: arch.o:
+arch.o: ../../include/architecture/m88k/fp_regs.h
+arch.o: ../../include/architecture/m88k/reg_help.h
+arch.o: ../../include/architecture/nrw/reg_help.h
+arch.o: ../../include/architecture/sparc/reg.h ../../include/mach-o/fat.h
+arch.o: ../../include/mach-o/loader.h ../../include/mach-o/nlist.h
+arch.o: ../../include/mach-o/ranlib.h ../../include/mach-o/reloc.h
+arch.o: ../../include/mach/hppa/thread_status.h
+arch.o: ../../include/mach/i860/thread_status.h
+arch.o: ../../include/mach/m68k/thread_status.h
+arch.o: ../../include/mach/m88k/thread_status.h ../../include/mach/machine.h
+arch.o: ../../include/mach/sparc/thread_status.h ../../include/stuff/allocate.h
+arch.o: ../../include/stuff/arch.h ../../include/stuff/bool.h
+arch.o: ../../include/stuff/bytesex.h ../../include/stuff/openstep_mach.h
+arch.o: ../arch.c
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/architecture/byte_order.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/mach/mach.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/stdlib.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig_errors.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ndr.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/notify.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/exception.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/processor_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_state.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_param.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_map.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/hash_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/ipc_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/lockgroup_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/mach_debug_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/page_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/vm_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/zone_info.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: arch_usage.o:
+arch_usage.o: ../arch_usage.c
+# Dependencies for File: best_arch.o:
+best_arch.o: ../../include/mach-o/fat.h ../../include/mach/machine.h
+best_arch.o: ../../include/stuff/best_arch.h ../../include/stuff/bool.h
+best_arch.o: ../best_arch.c
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/architecture/byte_order.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+best_arch.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+# Dependencies for File: breakout.o:
+breakout.o: ../breakout.c
+# Dependencies for File: bytesex.o:
+bytesex.o: ../../include/architecture/m88k/fp_regs.h
+bytesex.o: ../../include/architecture/m88k/reg_help.h
+bytesex.o: ../../include/architecture/nrw/reg_help.h
+bytesex.o: ../../include/architecture/sparc/reg.h ../../include/mach-o/fat.h
+bytesex.o: ../../include/mach-o/loader.h ../../include/mach-o/nlist.h
+bytesex.o: ../../include/mach-o/ranlib.h ../../include/mach-o/reloc.h
+bytesex.o: ../../include/mach/hppa/thread_status.h
+bytesex.o: ../../include/mach/i860/thread_status.h
+bytesex.o: ../../include/mach/m68k/thread_status.h
+bytesex.o: ../../include/mach/m88k/thread_status.h ../../include/mach/machine.h
+bytesex.o: ../../include/mach/sparc/thread_status.h ../../include/stuff/bool.h
+bytesex.o: ../../include/stuff/bytesex.h ../bytesex.c
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/architecture/byte_order.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+bytesex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: checkout.o:
+checkout.o: ../checkout.c
+# Dependencies for File: crc32.o:
+crc32.o: ../crc32.c
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+crc32.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: dylib_roots.o:
+dylib_roots.o: ../dylib_roots.c
+# Dependencies for File: dylib_table.o:
+dylib_table.o: ../dylib_table.c
+# Dependencies for File: errors.o:
+errors.o: ../errors.c
+# Dependencies for File: execute.o:
+execute.o: ../execute.c
+# Dependencies for File: fatal_arch.o:
+fatal_arch.o: ../fatal_arch.c
+# Dependencies for File: fatals.o:
+fatals.o: ../fatals.c
+# Dependencies for File: get_arch_from_host.o:
+get_arch_from_host.o: ../get_arch_from_host.c
+# Dependencies for File: get_toc_byte_sex.o:
+get_toc_byte_sex.o: ../../include/ar.h
+get_toc_byte_sex.o: ../../include/architecture/m88k/fp_regs.h
+get_toc_byte_sex.o: ../../include/architecture/m88k/reg_help.h
+get_toc_byte_sex.o: ../../include/architecture/nrw/reg_help.h
+get_toc_byte_sex.o: ../../include/architecture/sparc/reg.h
+get_toc_byte_sex.o: ../../include/mach-o/fat.h ../../include/mach-o/loader.h
+get_toc_byte_sex.o: ../../include/mach-o/nlist.h ../../include/mach-o/ranlib.h
+get_toc_byte_sex.o: ../../include/mach-o/reloc.h
+get_toc_byte_sex.o: ../../include/mach/hppa/thread_status.h
+get_toc_byte_sex.o: ../../include/mach/i860/thread_status.h
+get_toc_byte_sex.o: ../../include/mach/m68k/thread_status.h
+get_toc_byte_sex.o: ../../include/mach/m88k/thread_status.h
+get_toc_byte_sex.o: ../../include/mach/machine.h
+get_toc_byte_sex.o: ../../include/mach/sparc/thread_status.h
+get_toc_byte_sex.o: ../../include/stuff/bool.h ../../include/stuff/bytesex.h
+get_toc_byte_sex.o: ../../include/stuff/round.h ../get_toc_byte_sex.c
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/architecture/byte_order.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/stdlib.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+get_toc_byte_sex.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: guess_short_name.o:
+guess_short_name.o: ../guess_short_name.c
+# Dependencies for File: hash_string.o:
+hash_string.o: ../../include/stuff/hash_string.h ../hash_string.c
+# Dependencies for File: hppa.o:
+hppa.o: ../../include/stuff/hppa.h ../hppa.c
+# Dependencies for File: macosx_deployment_target.o:
+macosx_deployment_target.o: ../macosx_deployment_target.c
+# Dependencies for File: ofile.o:
+ofile.o: ../ofile.c
+# Dependencies for File: ofile_error.o:
+ofile_error.o: ../../include/ar.h ../../include/architecture/m88k/fp_regs.h
+ofile_error.o: ../../include/architecture/m88k/reg_help.h
+ofile_error.o: ../../include/architecture/nrw/reg_help.h
+ofile_error.o: ../../include/architecture/sparc/reg.h
+ofile_error.o: ../../include/mach-o/fat.h ../../include/mach-o/loader.h
+ofile_error.o: ../../include/mach-o/nlist.h ../../include/mach-o/ranlib.h
+ofile_error.o: ../../include/mach-o/reloc.h
+ofile_error.o: ../../include/mach/hppa/thread_status.h
+ofile_error.o: ../../include/mach/i860/thread_status.h
+ofile_error.o: ../../include/mach/m68k/thread_status.h
+ofile_error.o: ../../include/mach/m88k/thread_status.h
+ofile_error.o: ../../include/mach/machine.h
+ofile_error.o: ../../include/mach/sparc/thread_status.h
+ofile_error.o: ../../include/stuff/arch.h ../../include/stuff/bool.h
+ofile_error.o: ../../include/stuff/bytesex.h ../../include/stuff/errors.h
+ofile_error.o: ../../include/stuff/ofile.h ../../include/stuff/print.h
+ofile_error.o: ../ofile_error.c
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/architecture/byte_order.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/mach/mach.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig_errors.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ndr.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/notify.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/exception.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/processor_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_state.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_param.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_map.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/hash_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/ipc_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/lockgroup_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/mach_debug_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/page_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/vm_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/zone_info.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/stdarg.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+ofile_error.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: ofile_get_word.o:
+ofile_get_word.o: ../../include/ar.h ../../include/architecture/m88k/fp_regs.h
+ofile_get_word.o: ../../include/architecture/m88k/reg_help.h
+ofile_get_word.o: ../../include/architecture/nrw/reg_help.h
+ofile_get_word.o: ../../include/architecture/sparc/reg.h
+ofile_get_word.o: ../../include/mach-o/fat.h ../../include/mach-o/loader.h
+ofile_get_word.o: ../../include/mach-o/nlist.h ../../include/mach-o/ranlib.h
+ofile_get_word.o: ../../include/mach-o/reloc.h
+ofile_get_word.o: ../../include/mach/hppa/thread_status.h
+ofile_get_word.o: ../../include/mach/i860/thread_status.h
+ofile_get_word.o: ../../include/mach/m68k/thread_status.h
+ofile_get_word.o: ../../include/mach/m88k/thread_status.h
+ofile_get_word.o: ../../include/mach/machine.h
+ofile_get_word.o: ../../include/mach/sparc/thread_status.h
+ofile_get_word.o: ../../include/stuff/arch.h ../../include/stuff/bool.h
+ofile_get_word.o: ../../include/stuff/bytesex.h ../../include/stuff/ofile.h
+ofile_get_word.o: ../ofile_get_word.c
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/architecture/byte_order.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+ofile_get_word.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: print.o:
+print.o: ../print.c
+# Dependencies for File: reloc.o:
+reloc.o: ../../include/mach-o/hppa/reloc.h ../../include/mach-o/i860/reloc.h
+reloc.o: ../../include/mach-o/m88k/reloc.h ../../include/mach-o/ppc/reloc.h
+reloc.o: ../../include/mach-o/reloc.h ../../include/mach-o/sparc/reloc.h
+reloc.o: ../../include/mach-o/x86_64/reloc.h ../../include/mach/machine.h
+reloc.o: ../../include/stuff/bool.h ../../include/stuff/errors.h
+reloc.o: ../../include/stuff/reloc.h ../reloc.c
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/mach/mach.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig_errors.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ndr.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/notify.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/exception.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/processor_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_state.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_param.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_map.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/hash_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/ipc_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/lockgroup_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/mach_debug_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/page_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/vm_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/zone_info.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+reloc.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: round.o:
+round.o: ../../include/stuff/round.h ../round.c
+# Dependencies for File: seg_addr_table.o:
+seg_addr_table.o: ../seg_addr_table.c
+# Dependencies for File: set_arch_flag_name.o:
+set_arch_flag_name.o: ../set_arch_flag_name.c
+# Dependencies for File: swap_headers.o:
+swap_headers.o: ../../include/architecture/m88k/fp_regs.h
+swap_headers.o: ../../include/architecture/m88k/reg_help.h
+swap_headers.o: ../../include/architecture/nrw/reg_help.h
+swap_headers.o: ../../include/architecture/sparc/reg.h
+swap_headers.o: ../../include/mach-o/fat.h ../../include/mach-o/loader.h
+swap_headers.o: ../../include/mach-o/nlist.h ../../include/mach-o/ranlib.h
+swap_headers.o: ../../include/mach-o/reloc.h
+swap_headers.o: ../../include/mach/hppa/thread_status.h
+swap_headers.o: ../../include/mach/i860/thread_status.h
+swap_headers.o: ../../include/mach/m68k/thread_status.h
+swap_headers.o: ../../include/mach/m88k/thread_status.h
+swap_headers.o: ../../include/mach/machine.h
+swap_headers.o: ../../include/mach/sparc/thread_status.h
+swap_headers.o: ../../include/stuff/bool.h ../../include/stuff/bytesex.h
+swap_headers.o: ../../include/stuff/errors.h ../swap_headers.c
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/architecture/byte_order.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/mach/mach.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig_errors.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ndr.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/notify.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/exception.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/processor_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_state.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_param.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_map.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/hash_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/ipc_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/lockgroup_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/mach_debug_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/page_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/vm_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/zone_info.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+swap_headers.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: symbol_list.o:
+symbol_list.o: ../symbol_list.c
+# Dependencies for File: unix_standard_mode.o:
+unix_standard_mode.o: ../unix_standard_mode.c
+# Dependencies for File: version_number.o:
+version_number.o: ../../include/mach/machine.h ../../include/stuff/allocate.h
+version_number.o: ../../include/stuff/bool.h ../../include/stuff/errors.h
+version_number.o: ../version_number.c
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/mach/mach.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/libsa/stdlib.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/mig_errors.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ndr.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/notify.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/exception.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/processor_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_state.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_param.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_map.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/hash_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/ipc_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/lockgroup_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/mach_debug_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/page_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/vm_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/mach_debug/zone_info.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+version_number.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: vm_flush_cache.o:
+vm_flush_cache.o: ../vm_flush_cache.c
+# Dependencies for File: writeout.o:
+writeout.o: ../writeout.c

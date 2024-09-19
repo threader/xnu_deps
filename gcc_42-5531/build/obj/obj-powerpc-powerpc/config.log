@@ -1,0 +1,126 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:630: checking host system type
+configure:651: checking target system type
+configure:669: checking build system type
+configure:724: checking for a BSD compatible install
+configure:777: checking whether ln works
+configure:801: checking whether ln -s works
+configure:1871: checking for gcc
+configure:1984: checking whether the C compiler (gcc  ) works
+configure:2000: gcc -o conftest    conftest.c  1>&5
+configure:2026: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:2031: checking whether we are using GNU C
+configure:2040: gcc -E conftest.c
+configure:2059: checking whether gcc accepts -g
+configure:2126: checking for gnatbind
+configure:2191: checking whether compiler driver understands Ada
+configure:2223: checking how to compare bootstrapped objects
+configure:2343: checking for correct version of gmp.h
+configure:2356: gcc -c -g -O2   conftest.c 1>&5
+configure:2346:17: error: gmp.h: No such file or directory
+configure: In function 'main':
+configure:2350: error: 'choke' undeclared (first use in this function)
+configure:2350: error: (Each undeclared identifier is reported only once
+configure:2350: error: for each function it appears in.)
+configure:2350: error: parse error before 'me'
+configure: failed program was:
+#line 2345 "configure"
+#include "confdefs.h"
+#include "gmp.h"
+int main() {
+
+#if __GNU_MP_VERSION < 4 || (__GNU_MP_VERSION == 4 && __GNU_MP_VERSION_MINOR < 1)
+choke me
+#endif
+
+; return 0; }
+configure:3518: checking for bison
+configure:3558: checking for bison
+configure:3597: checking for gm4
+configure:3636: checking for flex
+configure:3676: checking for flex
+configure:3715: checking for makeinfo
+configure:3768: checking for expect
+configure:3809: checking for runtest
+configure:3857: checking for powerpc-apple-darwin8-ar
+configure:3888: checking for ar
+configure:3932: checking for powerpc-apple-darwin8-as
+configure:3963: checking for as
+configure:4007: checking for powerpc-apple-darwin8-dlltool
+configure:4038: checking for dlltool
+configure:4082: checking for powerpc-apple-darwin8-ld
+configure:4157: checking for powerpc-apple-darwin8-lipo
+configure:4188: checking for lipo
+configure:4232: checking for powerpc-apple-darwin8-nm
+configure:4263: checking for nm
+configure:4307: checking for powerpc-apple-darwin8-ranlib
+configure:4338: checking for ranlib
+configure:4377: checking for powerpc-apple-darwin8-strip
+configure:4408: checking for strip
+configure:4447: checking for powerpc-apple-darwin8-windres
+configure:4478: checking for windres
+configure:4522: checking for powerpc-apple-darwin8-objcopy
+configure:4553: checking for objcopy
+configure:4597: checking for powerpc-apple-darwin8-objdump
+configure:4628: checking for objdump
+configure:4709: checking for powerpc-apple-darwin8-cc
+configure:4740: checking for cc
+configure:4802: checking for powerpc-apple-darwin8-c++
+configure:4833: checking for c++
+configure:4895: checking for powerpc-apple-darwin8-gcc
+configure:4926: checking for gcc
+configure:4983: checking for powerpc-apple-darwin8-gcj
+configure:5014: checking for gcj
+configure:5076: checking for powerpc-apple-darwin8-gfortran
+configure:5107: checking for gfortran
+configure:5234: checking for ar
+configure:5288: checking for powerpc-apple-darwin8-ar
+configure:5319: checking for ar
+configure:5389: checking for as
+configure:5443: checking for powerpc-apple-darwin8-as
+configure:5474: checking for as
+configure:5544: checking for dlltool
+configure:5598: checking for powerpc-apple-darwin8-dlltool
+configure:5629: checking for dlltool
+configure:5699: checking for ld
+configure:5753: checking for powerpc-apple-darwin8-ld
+configure:5784: checking for ld
+configure:5854: checking for lipo
+configure:5908: checking for powerpc-apple-darwin8-lipo
+configure:5939: checking for lipo
+configure:6009: checking for nm
+configure:6063: checking for powerpc-apple-darwin8-nm
+configure:6094: checking for nm
+configure:6164: checking for objdump
+configure:6218: checking for powerpc-apple-darwin8-objdump
+configure:6249: checking for objdump
+configure:6319: checking for ranlib
+configure:6373: checking for powerpc-apple-darwin8-ranlib
+configure:6404: checking for ranlib
+configure:6474: checking for strip
+configure:6528: checking for powerpc-apple-darwin8-strip
+configure:6559: checking for strip
+configure:6629: checking for windres
+configure:6683: checking for powerpc-apple-darwin8-windres
+configure:6714: checking for windres
+configure:6764: checking where to find the target ar
+configure:6797: checking where to find the target as
+configure:6830: checking where to find the target cc
+configure:6863: checking where to find the target c++
+configure:6899: checking where to find the target c++ for libstdc++
+configure:6935: checking where to find the target dlltool
+configure:6968: checking where to find the target gcc
+configure:7001: checking where to find the target gcj
+configure:7037: checking where to find the target gfortran
+configure:7073: checking where to find the target ld
+configure:7106: checking where to find the target lipo
+configure:7129: checking where to find the target nm
+configure:7162: checking where to find the target objdump
+configure:7195: checking where to find the target ranlib
+configure:7228: checking where to find the target strip
+configure:7261: checking where to find the target windres
+configure:7322: checking whether to enable maintainer-specific portions of Makefiles
+configure:7371: checking whether -fkeep-inline-functions is supported
+configure:7386: gcc -c -g -O2 -fkeep-inline-functions  conftest.c 1>&5

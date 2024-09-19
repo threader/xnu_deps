@@ -1,0 +1,11 @@
+ TRIPLE=powerpc-apple-darwin8 ../llvmgcc42-2336.11/configure 
+--prefix=`pwd`/../install-bin --program-prefix=llvm- 
+--enable-llvm=/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/llvmgcc42-2336.11/llvmCore-bin/Developer/usr/local/ 
+--enable-languages=c,c++,objc,obj-c++ 
+--with-gxx-include-dir=/usr/include/c++/4.2.1 --with-system-zlib 
+--x-includes=/usr/X11R6/include
+
+
+TRIPLE=powerpc-apple-darwin8 ../configure --prefix=`pwd`/../install-bin --program-prefix=llvm- 
+--enable-llvm=/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/llvmgcc42-2336.11/llvmCore-bin/Developer/usr/local/ 
+--enable-languages=c,c++,objc,obj-c++ --with-gxx-include-dir=/usr/include/c++/4.2.1 --with-system-zlib --x-includes=/usr/X11R6/include

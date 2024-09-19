@@ -1,0 +1,3 @@
+000000004cbe1cc50000000000000668 2e48691b0e37bc110ff496d4080c59b3 ffffffffffffffffffffffffffffffff 1640 /tmp/libstdcxx.dst/usr/local/OpenSourceVersions/libstdcxx.plist
+000000004b9ec8260000000000004652 5165797875bb2af489beb714eb63e835 ffffffffffffffffffffffffffffffff 18002 /tmp/libstdcxx.dst/usr/local/OpenSourceLicenses/libstdcxx.txt
+00000000000000000000000000000000 19aabb0b18e17d945166d17f0ad81429 ffffffffffffffffffffffffffffffff 48 /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/libstdcxx-52/build/Release/libstdc++.6.0.9.dylib

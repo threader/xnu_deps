@@ -1,0 +1,25 @@
+AUTOMATIC_DEPENDENCY_INFO=YES
+except.o: except.c
+file_funcs.o: file_funcs.c defs.h streams.h streamsimpl.h
+globals.o: globals.c
+indir_ops.o: indir_ops.c defs.h streams.h streamsimpl.h
+ipc_funcs.o: ipc_funcs.c defs.h streams.h streamsimpl.h
+memory_funcs.o: memory_funcs.c defs.h streams.h streamsimpl.h \
+  streamsextra.h
+NXLogError.o: NXLogError.c
+streams.o: streams.c defs.h streams.h streamsimpl.h
+streams_doprnt.o: streams_doprnt.c defs.h streams.h streamsimpl.h
+streams_doscan.o: streams_doscan.c defs.h streams.h streamsimpl.h
+streams_internal.o: streams_internal.c defs.h streams.h streamsimpl.h
+except.d : except.c
+file_funcs.d : file_funcs.c defs.h streams.h streamsimpl.h
+globals.d : globals.c
+indir_ops.d : indir_ops.c defs.h streams.h streamsimpl.h
+ipc_funcs.d : ipc_funcs.c defs.h streams.h streamsimpl.h
+memory_funcs.d : memory_funcs.c defs.h streams.h streamsimpl.h \
+  streamsextra.h
+NXLogError.d : NXLogError.c
+streams.d : streams.c defs.h streams.h streamsimpl.h
+streams_doprnt.d : streams_doprnt.c defs.h streams.h streamsimpl.h
+streams_doscan.d : streams_doscan.c defs.h streams.h streamsimpl.h
+streams_internal.d : streams_internal.c defs.h streams.h streamsimpl.h

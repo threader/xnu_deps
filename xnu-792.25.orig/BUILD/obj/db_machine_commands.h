@@ -1,0 +1,1 @@
+#define DB_MACHINE_COMMANDS 0

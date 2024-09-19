@@ -1,0 +1,6 @@
+ident		LIBSA
+machine		"ppc"
+cpu		"ppc"
+builddir	"."
+objectdir	"/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/BUILD/obj/RELEASE_PPC/libsa/RELEASE"
+sourcedir	"/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20"

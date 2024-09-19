@@ -1,0 +1,1 @@
+ const unsigned char update_dyld_shared_cacheVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:update_dyld_shared_cache  PROJECT:dyld-  DEVELOPER:mikemike  BUILT:" __DATE__  " " __TIME__ "" "\n"; const double update_dyld_shared_cacheVersionNumber __attribute__ ((used)) = (double)0.;

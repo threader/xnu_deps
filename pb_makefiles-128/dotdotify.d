@@ -1,0 +1,1 @@
+dotdotify.o: dotdotify.c

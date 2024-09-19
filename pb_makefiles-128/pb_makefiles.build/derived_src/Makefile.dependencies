@@ -1,0 +1,9 @@
+AUTOMATIC_DEPENDENCY_INFO=YES
+clonehdrs.o: clonehdrs.c
+dotdotify.o: dotdotify.c
+newer.o: newer.c
+readdir.o: readdir.c
+clonehdrs.d : clonehdrs.c
+dotdotify.d : dotdotify.c
+newer.d : newer.c
+readdir.d : readdir.c

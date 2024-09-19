@@ -1,0 +1,2 @@
+memory_funcs.d : memory_funcs.c defs.h streams.h streamsimpl.h \
+  streamsextra.h

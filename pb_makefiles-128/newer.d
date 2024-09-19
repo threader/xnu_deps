@@ -1,0 +1,1 @@
+newer.o: newer.c

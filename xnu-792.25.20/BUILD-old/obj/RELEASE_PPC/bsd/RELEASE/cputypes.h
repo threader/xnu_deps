@@ -1,0 +1,1 @@
+#define	ppc	1

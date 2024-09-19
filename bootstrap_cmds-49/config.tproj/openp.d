@@ -1,0 +1,1 @@
+openp.o: openp.c

@@ -1,0 +1,2 @@
+	.private_extern restFP
+	.private_extern saveFP

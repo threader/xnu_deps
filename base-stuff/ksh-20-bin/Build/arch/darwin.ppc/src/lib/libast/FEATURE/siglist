@@ -1,0 +1,101 @@
+/* : : generated from /tmp/ksh/Build/src/lib/libast/features/siglist by iffe version 2011-01-07 : : */
+#ifndef _def_siglist_ast
+#define _def_siglist_ast	1
+#define _sys_types	1	/* #include <sys/types.h> ok */
+#define _hdr_string	1	/* #include <string.h> ok */
+#define _hdr_signal	1	/* #include <signal.h> ok */
+#define _lib_strsignal	1	/* strsignal() in default lib(s) */
+#if defined(SIGhup) && !defined(HAD_SIGhup)
+0,"hup",SIGhup,
+#endif
+#if defined(SIGint) && !defined(HAD_SIGint)
+0,"int",SIGint,
+#endif
+#if defined(SIGquit) && !defined(HAD_SIGquit)
+0,"quit",SIGquit,
+#endif
+#if defined(SIGill) && !defined(HAD_SIGill)
+0,"ill",SIGill,
+#endif
+#if defined(SIGtrap) && !defined(HAD_SIGtrap)
+0,"trap",SIGtrap,
+#endif
+#if defined(SIGabrt) && !defined(HAD_SIGabrt)
+0,"abrt",SIGabrt,
+#endif
+#if defined(SIGemt) && !defined(HAD_SIGemt)
+0,"emt",SIGemt,
+#endif
+#if defined(SIGfpe) && !defined(HAD_SIGfpe)
+0,"fpe",SIGfpe,
+#endif
+#if defined(SIGkill) && !defined(HAD_SIGkill)
+0,"kill",SIGkill,
+#endif
+#if defined(SIGbus) && !defined(HAD_SIGbus)
+0,"bus",SIGbus,
+#endif
+#if defined(SIGsegv) && !defined(HAD_SIGsegv)
+0,"segv",SIGsegv,
+#endif
+#if defined(SIGsys) && !defined(HAD_SIGsys)
+0,"sys",SIGsys,
+#endif
+#if defined(SIGpipe) && !defined(HAD_SIGpipe)
+0,"pipe",SIGpipe,
+#endif
+#if defined(SIGalrm) && !defined(HAD_SIGalrm)
+0,"alrm",SIGalrm,
+#endif
+#if defined(SIGterm) && !defined(HAD_SIGterm)
+0,"term",SIGterm,
+#endif
+#if defined(SIGurg) && !defined(HAD_SIGurg)
+0,"urg",SIGurg,
+#endif
+#if defined(SIGstop) && !defined(HAD_SIGstop)
+0,"stop",SIGstop,
+#endif
+#if defined(SIGtstp) && !defined(HAD_SIGtstp)
+0,"tstp",SIGtstp,
+#endif
+#if defined(SIGcont) && !defined(HAD_SIGcont)
+0,"cont",SIGcont,
+#endif
+#if defined(SIGchld) && !defined(HAD_SIGchld)
+0,"chld",SIGchld,
+#endif
+#if defined(SIGttin) && !defined(HAD_SIGttin)
+0,"ttin",SIGttin,
+#endif
+#if defined(SIGttou) && !defined(HAD_SIGttou)
+0,"ttou",SIGttou,
+#endif
+#if defined(SIGio) && !defined(HAD_SIGio)
+0,"io",SIGio,
+#endif
+#if defined(SIGxcpu) && !defined(HAD_SIGxcpu)
+0,"xcpu",SIGxcpu,
+#endif
+#if defined(SIGxfsz) && !defined(HAD_SIGxfsz)
+0,"xfsz",SIGxfsz,
+#endif
+#if defined(SIGvtalrm) && !defined(HAD_SIGvtalrm)
+0,"vtalrm",SIGvtalrm,
+#endif
+#if defined(SIGprof) && !defined(HAD_SIGprof)
+0,"prof",SIGprof,
+#endif
+#if defined(SIGwinch) && !defined(HAD_SIGwinch)
+0,"winch",SIGwinch,
+#endif
+#if defined(SIGinfo) && !defined(HAD_SIGinfo)
+0,"info",SIGinfo,
+#endif
+#if defined(SIGusr1) && !defined(HAD_SIGusr1)
+0,"usr1",SIGusr1,
+#endif
+#if defined(SIGusr2) && !defined(HAD_SIGusr2)
+0,"usr2",SIGusr2,
+#endif
+#endif

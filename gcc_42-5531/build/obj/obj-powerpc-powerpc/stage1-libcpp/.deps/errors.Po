@@ -1,0 +1,44 @@
+errors.o errors.o:  \
+ /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/errors.c \
+  config.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/system.h \
+  ../intl/libintl.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/filenames.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/libiberty.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/ansidecl.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/safe-ctype.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/cpplib.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/symtab.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/obstack.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/line-map.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/internal.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/cpp-id-data.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/cpplib.h
+
+config.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/system.h:
+
+../intl/libintl.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/filenames.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/libiberty.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/ansidecl.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/safe-ctype.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/cpplib.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/symtab.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/../include/obstack.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/line-map.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/internal.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/cpp-id-data.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/gcc_42-5531/build/obj/src/libcpp/include/cpplib.h:

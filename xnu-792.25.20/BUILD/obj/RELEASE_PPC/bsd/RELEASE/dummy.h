@@ -1,0 +1,1 @@
+#define NDUMMY 0

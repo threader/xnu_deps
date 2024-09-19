@@ -1,0 +1,5 @@
+ -lshell
+ -ldll -last -liconv
+ -lcoshell -last -liconv
+ -lcmd -last -liconv
+ -last -liconv

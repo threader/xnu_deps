@@ -1,0 +1,1 @@
+#define FAITH 0

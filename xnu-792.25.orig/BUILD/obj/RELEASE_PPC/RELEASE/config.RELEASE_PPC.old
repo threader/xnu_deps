@@ -1,0 +1,7 @@
+ident		LIBKERN
+options		LIBKERNCPP
+machine		"ppc"
+cpu		"ppc"
+builddir	"."
+objectdir	"/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/BUILD/obj/"
+sourcedir	"/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20"

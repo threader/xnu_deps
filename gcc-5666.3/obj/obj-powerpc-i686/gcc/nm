@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/bin/i686-apple-darwin8-nm "$@"

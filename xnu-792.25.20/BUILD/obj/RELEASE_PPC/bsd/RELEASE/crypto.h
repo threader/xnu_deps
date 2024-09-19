@@ -1,0 +1,1 @@
+#define NCRYPTO 0

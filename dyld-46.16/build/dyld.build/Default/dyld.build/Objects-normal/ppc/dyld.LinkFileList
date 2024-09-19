@@ -1,0 +1,12 @@
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/dyldStartup.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/dyld_gdb.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/dyld.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/dyldAPIs.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/dyldExceptions.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/dyldInitialization.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/dyldNew.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/glue.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/ImageLoader.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/ImageLoaderMachO.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/stub_binding_helper.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/dyld-46.16/build/dyld.build/Default/dyld.build/Objects-normal/ppc/dyld_vers.o

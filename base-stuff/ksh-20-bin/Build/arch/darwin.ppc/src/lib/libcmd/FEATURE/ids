@@ -1,0 +1,14 @@
+/* : : generated from /tmp/ksh/Build/src/lib/libcmd/features/ids by iffe version 2011-01-07 : : */
+#ifndef _def_ids_cmd
+#define _def_ids_cmd	1
+#define _sys_types	1	/* #include <sys/types.h> ok */
+#define _LIB_ast	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libast.a is a library */
+#define _LIB_iconv	1	/* -liconv is a library */
+#define _lib_endgrent	1	/* endgrent() in default lib(s) */
+#define _lib_getgrent	1	/* getgrent() in default lib(s) */
+#define _lib_setgrent	1	/* setgrent() in default lib(s) */
+#if !_lib_fsid && _mac_fsid
+#define _lib_fsid	1
+#endif
+
+#endif

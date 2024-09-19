@@ -1,0 +1,84 @@
+lock.lo lock.o:  \
+ /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/lock.c \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/libgomp.h \
+  config.h gstdint.h /usr/include/sys/types.h \
+  /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/types.h /usr/include/ppc/types.h \
+  /usr/include/ppc/_types.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/machine/endian.h \
+  /usr/include/ppc/endian.h \
+  /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdint.h \
+  /usr/include/pthread.h /usr/include/_types.h \
+  /usr/include/pthread_impl.h /usr/include/sched.h /usr/include/time.h \
+  /usr/include/machine/_limits.h /usr/include/ppc/_limits.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/obj-powerpc-powerpc/./gcc/include/stdbool.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/sem.h \
+  /usr/include/semaphore.h /usr/include/sys/fcntl.h \
+  /usr/include/sys/semaphore.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/mutex.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/bar.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/libgomp_g.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/omp-lock.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/omp.h.in
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/libgomp.h:
+
+config.h:
+
+gstdint.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/ppc/types.h:
+
+/usr/include/ppc/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/ppc/endian.h:
+
+/usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdint.h:
+
+/usr/include/pthread.h:
+
+/usr/include/_types.h:
+
+/usr/include/pthread_impl.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/machine/_limits.h:
+
+/usr/include/ppc/_limits.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/obj-powerpc-powerpc/./gcc/include/stdbool.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/sem.h:
+
+/usr/include/semaphore.h:
+
+/usr/include/sys/fcntl.h:
+
+/usr/include/sys/semaphore.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/mutex.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/bar.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/libgomp_g.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/config/posix/omp-lock.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/gcc-5666.3/obj/src/libgomp/omp.h.in:

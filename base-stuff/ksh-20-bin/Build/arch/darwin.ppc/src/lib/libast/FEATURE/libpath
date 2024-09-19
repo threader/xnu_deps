@@ -1,0 +1,6 @@
+/* : : generated from /tmp/ksh/Build/src/lib/libast/features/libpath.sh by iffe version 2011-01-07 : : */
+#ifndef _def_libpath_ast
+#define _def_libpath_ast	1
+#define _sys_types	1	/* #include <sys/types.h> ok */
+#define CONF_LIBPATH	"lib:DYLD_LIBRARY_PATH"
+#endif

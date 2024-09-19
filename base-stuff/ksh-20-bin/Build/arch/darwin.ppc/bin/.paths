@@ -1,0 +1,3 @@
+# use { # no NO } prefix instead of XX to permanently disable #
+FPATH=../fun
+noBUILTIN_LIB=cmd

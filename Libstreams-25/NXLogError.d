@@ -1,0 +1,1 @@
+NXLogError.o: NXLogError.c

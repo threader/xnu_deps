@@ -1,0 +1,1 @@
+decomment.o: decomment.c

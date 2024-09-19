@@ -1,0 +1,1 @@
+ const unsigned char dyldVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:dyld  PROJECT:dyld-  DEVELOPER:root  BUILT:" __DATE__  " " __TIME__ "" "\n"; const double dyldVersionNumber __attribute__ ((used)) = (double)0.;

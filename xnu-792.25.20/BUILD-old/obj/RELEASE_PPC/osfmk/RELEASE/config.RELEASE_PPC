@@ -1,0 +1,21 @@
+ident		MACH
+options		MACH_KERNEL
+options		MACH_PAGEMAP
+options		MACH_LOAD
+options		MACH_RT
+pseudo-device	test_device	1
+options		ADVISORY_PAGEOUT
+options		MACH_DEBUG
+machine		"ppc"
+cpu		"ppc"
+pseudo-device	scc		1
+pseudo-device	vc		1
+options		MACHINE_TIMER_ROUTINES
+options		MACH_KDP
+options		MACH_BSD
+options		IOKIT
+options		MACH_PE
+options		POWERMAC
+builddir	"."
+objectdir	"/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/BUILD/obj/RELEASE_PPC/osfmk/RELEASE"
+sourcedir	"/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20"

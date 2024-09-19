@@ -1,0 +1,11 @@
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/kextcache_main.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/compression.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/arch.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/mkext_file.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/prelink.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/bootroot.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/fat_util.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/macho_util.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/logging.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/update_boot.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/kext_tools-65.76/build/kext_tools.build/Default/kextcache.build/Objects-normal/ppc/safecalls.o

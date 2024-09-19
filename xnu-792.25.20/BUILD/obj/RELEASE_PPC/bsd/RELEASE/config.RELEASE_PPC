@@ -1,0 +1,67 @@
+ident		NeXT
+options		TIMEZONE=0, PST=0
+options		QUOTA
+options		INET
+options		ABSOLUTETIME_SCALAR_TYPE
+options		OLD_VM_CODE
+options 	MACH
+options		MACH_COMPAT
+options		MACH_FASTLINK
+options		REV_ENDIAN_FS
+options		SIMPLE_CLOCK
+options		MACH_OLD_VM_COPY
+options		NO_DIRECT_RPC
+options		MROUTING
+options		VLAN
+options		BOND
+options		NETMIBS
+options         IPDIVERT
+options         IPFIREWALL
+options         IPFIREWALL_FORWARD
+options         IPFIREWALL_DEFAULT_TO_ACCEPT
+options		DUMMYNET
+options		IPFW2
+options		MULTICAST
+options		TCP_DROP_SYNFIN
+options		ICMP_BANDLIM
+options 	COMPAT_43_TTY
+options		COMPAT_43_SOCKET
+options		KTRACE
+options		FFS
+options		HFS
+options		FIFO
+options		UNION
+options		FDESC
+options		CD9660
+options		VOLFS
+options		DEVFS
+options		NFSCLIENT
+options		NFSSERVER
+options		NETAT
+options		KERNEL_STACK
+options         "INET6"
+options         IPSEC
+options         IPSEC_ESP
+options         "IPV6FIREWALL"
+options         "IPV6FIREWALL_DEFAULT_TO_ACCEPT"
+pseudo-device   gif     1
+pseudo-device   stf 	1
+options			crypto
+maxusers	32
+pseudo-device	cpus		1
+pseudo-device	ether
+pseudo-device	loop
+pseudo-device	pty	128 init pty_init
+pseudo-device	vndevice	4	init	vndevice_init
+pseudo-device	mdevdevice	1	init	mdevinit
+pseudo-device	bpfilter	4	init	bpf_init
+pseudo-device	fsevents	1	init	fsevents_init
+pseudo-device	random		1	init	random_init
+machine		"ppc"
+cpu		"ppc"
+options		GDB
+config		mach_kernel	swap generic
+pseudo-device	vol
+builddir	"."
+objectdir	"/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20/BUILD/obj/RELEASE_PPC/bsd/RELEASE"
+sourcedir	"/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20"

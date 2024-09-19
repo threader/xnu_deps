@@ -1,0 +1,667 @@
+# Dependencies for File: bind.o:
+bind.o: ../../include/mach-o/dyld.h ../../include/mach-o/loader.h
+bind.o: ../../include/mach/machine.h ../../include/stuff/bool.h ../bind.c
+bind.o: /usr/include/AvailabilityMacros.h /usr/include/_types.h
+bind.o: /usr/include/alloca.h /usr/include/architecture/byte_order.h
+bind.o: /usr/include/libkern/OSByteOrder.h
+bind.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/mach/boolean.h
+bind.o: /usr/include/mach/kern_return.h /usr/include/mach/machine/boolean.h
+bind.o: /usr/include/mach/machine/kern_return.h
+bind.o: /usr/include/mach/machine/thread_status.h
+bind.o: /usr/include/mach/machine/vm_types.h /usr/include/mach/message.h
+bind.o: /usr/include/mach/port.h /usr/include/mach/ppc/_types.h
+bind.o: /usr/include/mach/ppc/boolean.h /usr/include/mach/ppc/kern_return.h
+bind.o: /usr/include/mach/ppc/thread_status.h /usr/include/mach/ppc/vm_types.h
+bind.o: /usr/include/mach/vm_prot.h /usr/include/machine/_types.h
+bind.o: /usr/include/machine/endian.h /usr/include/machine/signal.h
+bind.o: /usr/include/machine/types.h /usr/include/ppc/_types.h
+bind.o: /usr/include/ppc/endian.h /usr/include/ppc/signal.h
+bind.o: /usr/include/ppc/types.h /usr/include/ppc/vmparam.h
+bind.o: /usr/include/stdlib.h /usr/include/sys/_endian.h
+bind.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+bind.o: /usr/include/sys/cdefs.h /usr/include/sys/resource.h
+bind.o: /usr/include/sys/signal.h /usr/include/sys/wait.h
+bind.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+# Dependencies for File: core.o:
+core.o: ../../include/ar.h ../../include/architecture/m88k/fp_regs.h
+core.o: ../../include/architecture/m88k/reg_help.h
+core.o: ../../include/architecture/nrw/reg_help.h
+core.o: ../../include/architecture/sparc/reg.h ../../include/mach-o/dyld.h
+core.o: ../../include/mach-o/dyld_debug.h ../../include/mach-o/fat.h
+core.o: ../../include/mach-o/loader.h ../../include/mach-o/nlist.h
+core.o: ../../include/mach-o/ranlib.h ../../include/mach-o/reloc.h
+core.o: ../../include/mach/hppa/thread_status.h
+core.o: ../../include/mach/i860/thread_status.h
+core.o: ../../include/mach/m68k/thread_status.h
+core.o: ../../include/mach/m88k/thread_status.h ../../include/mach/machine.h
+core.o: ../../include/mach/sparc/thread_status.h ../../include/stuff/arch.h
+core.o: ../../include/stuff/bool.h ../../include/stuff/bytesex.h
+core.o: ../../include/stuff/ofile.h ../../include/stuff/openstep_mach.h
+core.o: ../core.c ../debug.h ../ofi.h /usr/include/AvailabilityMacros.h
+core.o: /usr/include/_types.h /usr/include/alloca.h
+core.o: /usr/include/architecture/byte_order.h /usr/include/arpa/inet.h
+core.o: /usr/include/bsm/audit.h /usr/include/errno.h
+core.o: /usr/include/i386/eflags.h /usr/include/libc.h
+core.o: /usr/include/libkern/OSByteOrder.h
+core.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+core.o: /usr/include/mach/boolean.h /usr/include/mach/clock_priv.h
+core.o: /usr/include/mach/clock_types.h /usr/include/mach/error.h
+core.o: /usr/include/mach/exception_types.h /usr/include/mach/host_info.h
+core.o: /usr/include/mach/host_notify.h /usr/include/mach/host_priv.h
+core.o: /usr/include/mach/host_security.h
+core.o: /usr/include/mach/host_special_ports.h /usr/include/mach/i386/fp_reg.h
+core.o: /usr/include/mach/i386/thread_state.h
+core.o: /usr/include/mach/i386/thread_status.h /usr/include/mach/kern_return.h
+core.o: /usr/include/mach/kmod.h /usr/include/mach/ledger.h
+core.o: /usr/include/mach/lock_set.h /usr/include/mach/mach.h
+core.o: /usr/include/mach/mach_error.h /usr/include/mach/mach_host.h
+core.o: /usr/include/mach/mach_init.h /usr/include/mach/mach_interface.h
+core.o: /usr/include/mach/mach_port.h /usr/include/mach/mach_traps.h
+core.o: /usr/include/mach/mach_types.h /usr/include/mach/machine/boolean.h
+core.o: /usr/include/mach/machine/exception.h
+core.o: /usr/include/mach/machine/kern_return.h
+core.o: /usr/include/mach/machine/processor_info.h
+core.o: /usr/include/mach/machine/rpc.h
+core.o: /usr/include/mach/machine/thread_state.h
+core.o: /usr/include/mach/machine/thread_status.h
+core.o: /usr/include/mach/machine/vm_param.h
+core.o: /usr/include/mach/machine/vm_types.h
+core.o: /usr/include/mach/memory_object_types.h /usr/include/mach/message.h
+core.o: /usr/include/mach/mig.h /usr/include/mach/mig_errors.h
+core.o: /usr/include/mach/ndr.h /usr/include/mach/notify.h
+core.o: /usr/include/mach/policy.h /usr/include/mach/port.h
+core.o: /usr/include/mach/ppc/_types.h /usr/include/mach/ppc/boolean.h
+core.o: /usr/include/mach/ppc/exception.h /usr/include/mach/ppc/kern_return.h
+core.o: /usr/include/mach/ppc/processor_info.h /usr/include/mach/ppc/rpc.h
+core.o: /usr/include/mach/ppc/task.h /usr/include/mach/ppc/thread_act.h
+core.o: /usr/include/mach/ppc/thread_state.h
+core.o: /usr/include/mach/ppc/thread_status.h /usr/include/mach/ppc/vm_param.h
+core.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/processor.h
+core.o: /usr/include/mach/processor_info.h /usr/include/mach/processor_set.h
+core.o: /usr/include/mach/rpc.h /usr/include/mach/semaphore.h
+core.o: /usr/include/mach/std_types.h /usr/include/mach/sync_policy.h
+core.o: /usr/include/mach/task.h /usr/include/mach/task_info.h
+core.o: /usr/include/mach/task_policy.h /usr/include/mach/task_special_ports.h
+core.o: /usr/include/mach/thread_act.h /usr/include/mach/thread_info.h
+core.o: /usr/include/mach/thread_policy.h
+core.o: /usr/include/mach/thread_special_ports.h
+core.o: /usr/include/mach/thread_status.h /usr/include/mach/thread_switch.h
+core.o: /usr/include/mach/time_value.h /usr/include/mach/vm_attributes.h
+core.o: /usr/include/mach/vm_behavior.h /usr/include/mach/vm_inherit.h
+core.o: /usr/include/mach/vm_map.h /usr/include/mach/vm_prot.h
+core.o: /usr/include/mach/vm_purgable.h /usr/include/mach/vm_region.h
+core.o: /usr/include/mach/vm_statistics.h /usr/include/mach/vm_sync.h
+core.o: /usr/include/mach/vm_types.h /usr/include/mach_debug/hash_info.h
+core.o: /usr/include/mach_debug/ipc_info.h
+core.o: /usr/include/mach_debug/lockgroup_info.h
+core.o: /usr/include/mach_debug/mach_debug_types.h
+core.o: /usr/include/mach_debug/page_info.h /usr/include/mach_debug/vm_info.h
+core.o: /usr/include/mach_debug/zone_info.h /usr/include/machine/_limits.h
+core.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+core.o: /usr/include/machine/limits.h /usr/include/machine/param.h
+core.o: /usr/include/machine/signal.h /usr/include/machine/types.h
+core.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+core.o: /usr/include/ppc/_limits.h /usr/include/ppc/_types.h
+core.o: /usr/include/ppc/endian.h /usr/include/ppc/limits.h
+core.o: /usr/include/ppc/param.h /usr/include/ppc/signal.h
+core.o: /usr/include/ppc/types.h /usr/include/ppc/vmparam.h
+core.o: /usr/include/signal.h /usr/include/standards.h /usr/include/stdio.h
+core.o: /usr/include/stdlib.h /usr/include/string.h /usr/include/sys/_endian.h
+core.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+core.o: /usr/include/sys/attr.h /usr/include/sys/cdefs.h
+core.o: /usr/include/sys/errno.h /usr/include/sys/fcntl.h
+core.o: /usr/include/sys/file.h /usr/include/sys/filio.h
+core.o: /usr/include/sys/ioccom.h /usr/include/sys/ioctl.h
+core.o: /usr/include/sys/mount.h /usr/include/sys/param.h
+core.o: /usr/include/sys/queue.h /usr/include/sys/resource.h
+core.o: /usr/include/sys/select.h /usr/include/sys/signal.h
+core.o: /usr/include/sys/socket.h /usr/include/sys/sockio.h
+core.o: /usr/include/sys/stat.h /usr/include/sys/syslimits.h
+core.o: /usr/include/sys/time.h /usr/include/sys/times.h
+core.o: /usr/include/sys/ttycom.h /usr/include/sys/types.h
+core.o: /usr/include/sys/ucred.h /usr/include/sys/unistd.h
+core.o: /usr/include/sys/wait.h /usr/include/time.h /usr/include/unistd.h
+core.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/limits.h
+core.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdarg.h
+core.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdint.h
+core.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/syslimits.h
+# Dependencies for File: debug.o:
+debug.o: ../../dyld/dyld_debug_defs.h ../../include/mach-o/dyld.h
+debug.o: ../../include/mach-o/dyld_debug.h ../../include/mach-o/getsect.h
+debug.o: ../../include/mach-o/loader.h ../../include/mach/machine.h
+debug.o: ../../include/stuff/bool.h ../../include/stuff/openstep_mach.h
+debug.o: ../debug.c ../debug.h /usr/include/AvailabilityMacros.h
+debug.o: /usr/include/_types.h /usr/include/alloca.h
+debug.o: /usr/include/architecture/byte_order.h /usr/include/arpa/inet.h
+debug.o: /usr/include/bsm/audit.h /usr/include/errno.h /usr/include/libc.h
+debug.o: /usr/include/libkern/OSByteOrder.h
+debug.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+debug.o: /usr/include/mach/boolean.h /usr/include/mach/clock_priv.h
+debug.o: /usr/include/mach/clock_types.h /usr/include/mach/error.h
+debug.o: /usr/include/mach/exception_types.h /usr/include/mach/host_info.h
+debug.o: /usr/include/mach/host_notify.h /usr/include/mach/host_priv.h
+debug.o: /usr/include/mach/host_security.h
+debug.o: /usr/include/mach/host_special_ports.h /usr/include/mach/kern_return.h
+debug.o: /usr/include/mach/kmod.h /usr/include/mach/ledger.h
+debug.o: /usr/include/mach/lock_set.h /usr/include/mach/mach.h
+debug.o: /usr/include/mach/mach_error.h /usr/include/mach/mach_host.h
+debug.o: /usr/include/mach/mach_init.h /usr/include/mach/mach_interface.h
+debug.o: /usr/include/mach/mach_port.h /usr/include/mach/mach_traps.h
+debug.o: /usr/include/mach/mach_types.h /usr/include/mach/machine/boolean.h
+debug.o: /usr/include/mach/machine/exception.h
+debug.o: /usr/include/mach/machine/kern_return.h
+debug.o: /usr/include/mach/machine/processor_info.h
+debug.o: /usr/include/mach/machine/rpc.h
+debug.o: /usr/include/mach/machine/thread_state.h
+debug.o: /usr/include/mach/machine/thread_status.h
+debug.o: /usr/include/mach/machine/vm_param.h
+debug.o: /usr/include/mach/machine/vm_types.h
+debug.o: /usr/include/mach/memory_object_types.h /usr/include/mach/message.h
+debug.o: /usr/include/mach/mig.h /usr/include/mach/mig_errors.h
+debug.o: /usr/include/mach/ndr.h /usr/include/mach/notify.h
+debug.o: /usr/include/mach/policy.h /usr/include/mach/port.h
+debug.o: /usr/include/mach/ppc/_types.h /usr/include/mach/ppc/boolean.h
+debug.o: /usr/include/mach/ppc/exception.h /usr/include/mach/ppc/kern_return.h
+debug.o: /usr/include/mach/ppc/processor_info.h /usr/include/mach/ppc/rpc.h
+debug.o: /usr/include/mach/ppc/task.h /usr/include/mach/ppc/thread_act.h
+debug.o: /usr/include/mach/ppc/thread_state.h
+debug.o: /usr/include/mach/ppc/thread_status.h /usr/include/mach/ppc/vm_param.h
+debug.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/processor.h
+debug.o: /usr/include/mach/processor_info.h /usr/include/mach/processor_set.h
+debug.o: /usr/include/mach/rpc.h /usr/include/mach/semaphore.h
+debug.o: /usr/include/mach/std_types.h /usr/include/mach/sync_policy.h
+debug.o: /usr/include/mach/task.h /usr/include/mach/task_info.h
+debug.o: /usr/include/mach/task_policy.h /usr/include/mach/task_special_ports.h
+debug.o: /usr/include/mach/thread_act.h /usr/include/mach/thread_info.h
+debug.o: /usr/include/mach/thread_policy.h
+debug.o: /usr/include/mach/thread_special_ports.h
+debug.o: /usr/include/mach/thread_status.h /usr/include/mach/thread_switch.h
+debug.o: /usr/include/mach/time_value.h /usr/include/mach/vm_attributes.h
+debug.o: /usr/include/mach/vm_behavior.h /usr/include/mach/vm_inherit.h
+debug.o: /usr/include/mach/vm_map.h /usr/include/mach/vm_prot.h
+debug.o: /usr/include/mach/vm_purgable.h /usr/include/mach/vm_region.h
+debug.o: /usr/include/mach/vm_statistics.h /usr/include/mach/vm_sync.h
+debug.o: /usr/include/mach/vm_types.h /usr/include/mach_debug/hash_info.h
+debug.o: /usr/include/mach_debug/ipc_info.h
+debug.o: /usr/include/mach_debug/lockgroup_info.h
+debug.o: /usr/include/mach_debug/mach_debug_types.h
+debug.o: /usr/include/mach_debug/page_info.h /usr/include/mach_debug/vm_info.h
+debug.o: /usr/include/mach_debug/zone_info.h /usr/include/machine/_limits.h
+debug.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+debug.o: /usr/include/machine/limits.h /usr/include/machine/param.h
+debug.o: /usr/include/machine/signal.h /usr/include/machine/types.h
+debug.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+debug.o: /usr/include/ppc/_limits.h /usr/include/ppc/_types.h
+debug.o: /usr/include/ppc/endian.h /usr/include/ppc/limits.h
+debug.o: /usr/include/ppc/param.h /usr/include/ppc/signal.h
+debug.o: /usr/include/ppc/types.h /usr/include/ppc/vmparam.h
+debug.o: /usr/include/pthread.h /usr/include/pthread_impl.h
+debug.o: /usr/include/sched.h /usr/include/signal.h /usr/include/standards.h
+debug.o: /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h
+debug.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+debug.o: /usr/include/sys/appleapiopts.h /usr/include/sys/attr.h
+debug.o: /usr/include/sys/cdefs.h /usr/include/sys/errno.h
+debug.o: /usr/include/sys/fcntl.h /usr/include/sys/file.h
+debug.o: /usr/include/sys/filio.h /usr/include/sys/ioccom.h
+debug.o: /usr/include/sys/ioctl.h /usr/include/sys/mount.h
+debug.o: /usr/include/sys/param.h /usr/include/sys/queue.h
+debug.o: /usr/include/sys/resource.h /usr/include/sys/select.h
+debug.o: /usr/include/sys/signal.h /usr/include/sys/socket.h
+debug.o: /usr/include/sys/sockio.h /usr/include/sys/stat.h
+debug.o: /usr/include/sys/syslimits.h /usr/include/sys/time.h
+debug.o: /usr/include/sys/times.h /usr/include/sys/ttycom.h
+debug.o: /usr/include/sys/types.h /usr/include/sys/ucred.h
+debug.o: /usr/include/sys/unistd.h /usr/include/sys/wait.h /usr/include/time.h
+debug.o: /usr/include/unistd.h
+debug.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/limits.h
+debug.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdarg.h
+debug.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdint.h
+debug.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/syslimits.h
+debug.o: _dyld_debug.h
+# Dependencies for File: dyld_support.o:
+dyld_support.o: ../../include/mach-o/dyld.h ../../include/mach-o/ldsyms.h
+dyld_support.o: ../../include/mach-o/loader.h ../../include/mach/machine.h
+dyld_support.o: ../../include/stuff/bool.h ../dyld_support.c
+dyld_support.o: /usr/include/AvailabilityMacros.h /usr/include/_types.h
+dyld_support.o: /usr/include/alloca.h /usr/include/architecture/byte_order.h
+dyld_support.o: /usr/include/crt_externs.h /usr/include/libkern/OSByteOrder.h
+dyld_support.o: /usr/include/libkern/ppc/OSByteOrder.h
+dyld_support.o: /usr/include/mach/boolean.h /usr/include/mach/kern_return.h
+dyld_support.o: /usr/include/mach/machine/boolean.h
+dyld_support.o: /usr/include/mach/machine/kern_return.h
+dyld_support.o: /usr/include/mach/machine/thread_status.h
+dyld_support.o: /usr/include/mach/machine/vm_types.h
+dyld_support.o: /usr/include/mach/message.h /usr/include/mach/port.h
+dyld_support.o: /usr/include/mach/ppc/_types.h /usr/include/mach/ppc/boolean.h
+dyld_support.o: /usr/include/mach/ppc/kern_return.h
+dyld_support.o: /usr/include/mach/ppc/thread_status.h
+dyld_support.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/vm_prot.h
+dyld_support.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+dyld_support.o: /usr/include/machine/signal.h /usr/include/machine/types.h
+dyld_support.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+dyld_support.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+dyld_support.o: /usr/include/ppc/vmparam.h /usr/include/stdio.h
+dyld_support.o: /usr/include/stdlib.h /usr/include/string.h
+dyld_support.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+dyld_support.o: /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h
+dyld_support.o: /usr/include/sys/resource.h /usr/include/sys/signal.h
+dyld_support.o: /usr/include/sys/wait.h
+dyld_support.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+# Dependencies for File: images.o:
+images.o: ../../include/mach-o/dyld.h ../../include/mach-o/loader.h
+images.o: ../../include/mach/machine.h ../../include/stuff/bool.h ../images.c
+images.o: /usr/include/AvailabilityMacros.h /usr/include/_types.h
+images.o: /usr/include/alloca.h /usr/include/architecture/byte_order.h
+images.o: /usr/include/arpa/inet.h /usr/include/bsm/audit.h /usr/include/libc.h
+images.o: /usr/include/libkern/OSByteOrder.h
+images.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+images.o: /usr/include/mach/boolean.h /usr/include/mach/kern_return.h
+images.o: /usr/include/mach/machine/boolean.h
+images.o: /usr/include/mach/machine/kern_return.h
+images.o: /usr/include/mach/machine/thread_status.h
+images.o: /usr/include/mach/machine/vm_types.h /usr/include/mach/message.h
+images.o: /usr/include/mach/port.h /usr/include/mach/ppc/_types.h
+images.o: /usr/include/mach/ppc/boolean.h /usr/include/mach/ppc/kern_return.h
+images.o: /usr/include/mach/ppc/thread_status.h
+images.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/vm_prot.h
+images.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+images.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+images.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+images.o: /usr/include/machine/types.h /usr/include/netinet/in.h
+images.o: /usr/include/netinet6/in6.h /usr/include/ppc/_limits.h
+images.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+images.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+images.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+images.o: /usr/include/ppc/vmparam.h /usr/include/signal.h
+images.o: /usr/include/standards.h /usr/include/stdio.h /usr/include/stdlib.h
+images.o: /usr/include/string.h /usr/include/sys/_endian.h
+images.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+images.o: /usr/include/sys/attr.h /usr/include/sys/cdefs.h
+images.o: /usr/include/sys/fcntl.h /usr/include/sys/file.h
+images.o: /usr/include/sys/filio.h /usr/include/sys/ioccom.h
+images.o: /usr/include/sys/ioctl.h /usr/include/sys/mount.h
+images.o: /usr/include/sys/param.h /usr/include/sys/queue.h
+images.o: /usr/include/sys/resource.h /usr/include/sys/select.h
+images.o: /usr/include/sys/signal.h /usr/include/sys/socket.h
+images.o: /usr/include/sys/sockio.h /usr/include/sys/stat.h
+images.o: /usr/include/sys/syslimits.h /usr/include/sys/time.h
+images.o: /usr/include/sys/times.h /usr/include/sys/ttycom.h
+images.o: /usr/include/sys/types.h /usr/include/sys/ucred.h
+images.o: /usr/include/sys/unistd.h /usr/include/sys/wait.h /usr/include/time.h
+images.o: /usr/include/unistd.h
+images.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+images.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdarg.h
+images.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+images.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h
+# Dependencies for File: objc_modules.o:
+objc_modules.o: ../../include/mach-o/dyld.h ../../include/mach-o/loader.h
+objc_modules.o: ../../include/mach/machine.h ../objc_modules.c
+objc_modules.o: /usr/include/AvailabilityMacros.h /usr/include/_types.h
+objc_modules.o: /usr/include/architecture/byte_order.h
+objc_modules.o: /usr/include/libkern/OSByteOrder.h
+objc_modules.o: /usr/include/libkern/ppc/OSByteOrder.h
+objc_modules.o: /usr/include/mach/boolean.h /usr/include/mach/kern_return.h
+objc_modules.o: /usr/include/mach/machine/boolean.h
+objc_modules.o: /usr/include/mach/machine/kern_return.h
+objc_modules.o: /usr/include/mach/machine/thread_status.h
+objc_modules.o: /usr/include/mach/machine/vm_types.h
+objc_modules.o: /usr/include/mach/message.h /usr/include/mach/port.h
+objc_modules.o: /usr/include/mach/ppc/_types.h /usr/include/mach/ppc/boolean.h
+objc_modules.o: /usr/include/mach/ppc/kern_return.h
+objc_modules.o: /usr/include/mach/ppc/thread_status.h
+objc_modules.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/vm_prot.h
+objc_modules.o: /usr/include/machine/_types.h /usr/include/ppc/_types.h
+objc_modules.o: /usr/include/ppc/vmparam.h /usr/include/stdio.h
+objc_modules.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+objc_modules.o: /usr/include/sys/cdefs.h /usr/include/sys/resource.h
+objc_modules.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+# Dependencies for File: ofi.o:
+ofi.o: ../../dyld/inline_bsearch.h ../../dyld/inline_strcmp.h
+ofi.o: ../../include/ar.h ../../include/architecture/m88k/fp_regs.h
+ofi.o: ../../include/architecture/m88k/reg_help.h
+ofi.o: ../../include/architecture/nrw/reg_help.h
+ofi.o: ../../include/architecture/sparc/reg.h ../../include/mach-o/dyld.h
+ofi.o: ../../include/mach-o/dyld_priv.h ../../include/mach-o/fat.h
+ofi.o: ../../include/mach-o/getsect.h ../../include/mach-o/loader.h
+ofi.o: ../../include/mach-o/nlist.h ../../include/mach-o/ranlib.h
+ofi.o: ../../include/mach-o/reloc.h ../../include/mach/hppa/thread_status.h
+ofi.o: ../../include/mach/i860/thread_status.h
+ofi.o: ../../include/mach/m68k/thread_status.h
+ofi.o: ../../include/mach/m88k/thread_status.h ../../include/mach/machine.h
+ofi.o: ../../include/mach/sparc/thread_status.h ../../include/stuff/arch.h
+ofi.o: ../../include/stuff/bool.h ../../include/stuff/bytesex.h
+ofi.o: ../../include/stuff/errors.h ../../include/stuff/ofile.h
+ofi.o: ../../include/stuff/openstep_mach.h ../ofi.c ../ofi.h
+ofi.o: /usr/include/AvailabilityMacros.h /usr/include/_types.h
+ofi.o: /usr/include/alloca.h /usr/include/architecture/byte_order.h
+ofi.o: /usr/include/crt_externs.h /usr/include/errno.h
+ofi.o: /usr/include/i386/eflags.h /usr/include/libkern/OSByteOrder.h
+ofi.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/mach/boolean.h
+ofi.o: /usr/include/mach/clock_priv.h /usr/include/mach/clock_types.h
+ofi.o: /usr/include/mach/error.h /usr/include/mach/exception_types.h
+ofi.o: /usr/include/mach/host_info.h /usr/include/mach/host_notify.h
+ofi.o: /usr/include/mach/host_priv.h /usr/include/mach/host_security.h
+ofi.o: /usr/include/mach/host_special_ports.h /usr/include/mach/i386/fp_reg.h
+ofi.o: /usr/include/mach/i386/thread_state.h
+ofi.o: /usr/include/mach/i386/thread_status.h /usr/include/mach/kern_return.h
+ofi.o: /usr/include/mach/kmod.h /usr/include/mach/ledger.h
+ofi.o: /usr/include/mach/lock_set.h /usr/include/mach/mach.h
+ofi.o: /usr/include/mach/mach_error.h /usr/include/mach/mach_host.h
+ofi.o: /usr/include/mach/mach_init.h /usr/include/mach/mach_interface.h
+ofi.o: /usr/include/mach/mach_port.h /usr/include/mach/mach_traps.h
+ofi.o: /usr/include/mach/mach_types.h /usr/include/mach/machine/boolean.h
+ofi.o: /usr/include/mach/machine/exception.h
+ofi.o: /usr/include/mach/machine/kern_return.h
+ofi.o: /usr/include/mach/machine/processor_info.h
+ofi.o: /usr/include/mach/machine/rpc.h /usr/include/mach/machine/thread_state.h
+ofi.o: /usr/include/mach/machine/thread_status.h
+ofi.o: /usr/include/mach/machine/vm_param.h
+ofi.o: /usr/include/mach/machine/vm_types.h
+ofi.o: /usr/include/mach/memory_object_types.h /usr/include/mach/message.h
+ofi.o: /usr/include/mach/mig.h /usr/include/mach/mig_errors.h
+ofi.o: /usr/include/mach/ndr.h /usr/include/mach/notify.h
+ofi.o: /usr/include/mach/policy.h /usr/include/mach/port.h
+ofi.o: /usr/include/mach/ppc/_types.h /usr/include/mach/ppc/boolean.h
+ofi.o: /usr/include/mach/ppc/exception.h /usr/include/mach/ppc/kern_return.h
+ofi.o: /usr/include/mach/ppc/processor_info.h /usr/include/mach/ppc/rpc.h
+ofi.o: /usr/include/mach/ppc/task.h /usr/include/mach/ppc/thread_act.h
+ofi.o: /usr/include/mach/ppc/thread_state.h
+ofi.o: /usr/include/mach/ppc/thread_status.h /usr/include/mach/ppc/vm_param.h
+ofi.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/processor.h
+ofi.o: /usr/include/mach/processor_info.h /usr/include/mach/processor_set.h
+ofi.o: /usr/include/mach/rpc.h /usr/include/mach/semaphore.h
+ofi.o: /usr/include/mach/std_types.h /usr/include/mach/sync_policy.h
+ofi.o: /usr/include/mach/task.h /usr/include/mach/task_info.h
+ofi.o: /usr/include/mach/task_policy.h /usr/include/mach/task_special_ports.h
+ofi.o: /usr/include/mach/thread_act.h /usr/include/mach/thread_info.h
+ofi.o: /usr/include/mach/thread_policy.h
+ofi.o: /usr/include/mach/thread_special_ports.h
+ofi.o: /usr/include/mach/thread_status.h /usr/include/mach/thread_switch.h
+ofi.o: /usr/include/mach/time_value.h /usr/include/mach/vm_attributes.h
+ofi.o: /usr/include/mach/vm_behavior.h /usr/include/mach/vm_inherit.h
+ofi.o: /usr/include/mach/vm_map.h /usr/include/mach/vm_prot.h
+ofi.o: /usr/include/mach/vm_purgable.h /usr/include/mach/vm_region.h
+ofi.o: /usr/include/mach/vm_statistics.h /usr/include/mach/vm_sync.h
+ofi.o: /usr/include/mach/vm_types.h /usr/include/mach_debug/hash_info.h
+ofi.o: /usr/include/mach_debug/ipc_info.h
+ofi.o: /usr/include/mach_debug/lockgroup_info.h
+ofi.o: /usr/include/mach_debug/mach_debug_types.h
+ofi.o: /usr/include/mach_debug/page_info.h /usr/include/mach_debug/vm_info.h
+ofi.o: /usr/include/mach_debug/zone_info.h /usr/include/machine/_limits.h
+ofi.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+ofi.o: /usr/include/machine/signal.h /usr/include/machine/types.h
+ofi.o: /usr/include/ppc/_limits.h /usr/include/ppc/_types.h
+ofi.o: /usr/include/ppc/endian.h /usr/include/ppc/signal.h
+ofi.o: /usr/include/ppc/types.h /usr/include/ppc/vmparam.h
+ofi.o: /usr/include/pthread.h /usr/include/pthread_impl.h /usr/include/sched.h
+ofi.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/stdlib.h
+ofi.o: /usr/include/string.h /usr/include/sys/_endian.h
+ofi.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+ofi.o: /usr/include/sys/cdefs.h /usr/include/sys/errno.h
+ofi.o: /usr/include/sys/resource.h /usr/include/sys/select.h
+ofi.o: /usr/include/sys/signal.h /usr/include/sys/time.h
+ofi.o: /usr/include/sys/types.h /usr/include/sys/unistd.h
+ofi.o: /usr/include/sys/wait.h /usr/include/time.h /usr/include/unistd.h
+ofi.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdarg.h
+ofi.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stddef.h
+ofi.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdint.h
+# Dependencies for File: ofile.o:
+ofile.o: ../../include/ar.h ../../include/architecture/m88k/fp_regs.h
+ofile.o: ../../include/architecture/m88k/reg_help.h
+ofile.o: ../../include/architecture/nrw/reg_help.h
+ofile.o: ../../include/architecture/sparc/reg.h ../../include/mach-o/dyld.h
+ofile.o: ../../include/mach-o/fat.h ../../include/mach-o/loader.h
+ofile.o: ../../include/mach-o/nlist.h ../../include/mach-o/ranlib.h
+ofile.o: ../../include/mach-o/reloc.h ../../include/mach/hppa/thread_status.h
+ofile.o: ../../include/mach/i860/thread_status.h
+ofile.o: ../../include/mach/m68k/thread_status.h
+ofile.o: ../../include/mach/m88k/thread_status.h ../../include/mach/machine.h
+ofile.o: ../../include/mach/sparc/thread_status.h
+ofile.o: ../../include/stuff/allocate.h ../../include/stuff/arch.h
+ofile.o: ../../include/stuff/bool.h ../../include/stuff/bytesex.h
+ofile.o: ../../include/stuff/errors.h ../../include/stuff/ofile.h
+ofile.o: ../../include/stuff/openstep_mach.h ../../include/stuff/print.h
+ofile.o: ../../include/stuff/round.h ../../libstuff/ofile.c
+ofile.o: /usr/include/AvailabilityMacros.h /usr/include/_types.h
+ofile.o: /usr/include/alloca.h /usr/include/architecture/byte_order.h
+ofile.o: /usr/include/arpa/inet.h /usr/include/bsm/audit.h /usr/include/ctype.h
+ofile.o: /usr/include/errno.h /usr/include/i386/eflags.h /usr/include/libc.h
+ofile.o: /usr/include/libkern/OSByteOrder.h
+ofile.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+ofile.o: /usr/include/mach/boolean.h /usr/include/mach/clock_priv.h
+ofile.o: /usr/include/mach/clock_types.h /usr/include/mach/error.h
+ofile.o: /usr/include/mach/exception_types.h /usr/include/mach/host_info.h
+ofile.o: /usr/include/mach/host_notify.h /usr/include/mach/host_priv.h
+ofile.o: /usr/include/mach/host_security.h
+ofile.o: /usr/include/mach/host_special_ports.h /usr/include/mach/i386/fp_reg.h
+ofile.o: /usr/include/mach/i386/thread_state.h
+ofile.o: /usr/include/mach/i386/thread_status.h /usr/include/mach/kern_return.h
+ofile.o: /usr/include/mach/kmod.h /usr/include/mach/ledger.h
+ofile.o: /usr/include/mach/lock_set.h /usr/include/mach/mach.h
+ofile.o: /usr/include/mach/mach_error.h /usr/include/mach/mach_host.h
+ofile.o: /usr/include/mach/mach_init.h /usr/include/mach/mach_interface.h
+ofile.o: /usr/include/mach/mach_port.h /usr/include/mach/mach_traps.h
+ofile.o: /usr/include/mach/mach_types.h /usr/include/mach/machine/boolean.h
+ofile.o: /usr/include/mach/machine/exception.h
+ofile.o: /usr/include/mach/machine/kern_return.h
+ofile.o: /usr/include/mach/machine/processor_info.h
+ofile.o: /usr/include/mach/machine/rpc.h
+ofile.o: /usr/include/mach/machine/thread_state.h
+ofile.o: /usr/include/mach/machine/thread_status.h
+ofile.o: /usr/include/mach/machine/vm_param.h
+ofile.o: /usr/include/mach/machine/vm_types.h
+ofile.o: /usr/include/mach/memory_object_types.h /usr/include/mach/message.h
+ofile.o: /usr/include/mach/mig.h /usr/include/mach/mig_errors.h
+ofile.o: /usr/include/mach/ndr.h /usr/include/mach/notify.h
+ofile.o: /usr/include/mach/policy.h /usr/include/mach/port.h
+ofile.o: /usr/include/mach/ppc/_types.h /usr/include/mach/ppc/boolean.h
+ofile.o: /usr/include/mach/ppc/exception.h /usr/include/mach/ppc/kern_return.h
+ofile.o: /usr/include/mach/ppc/processor_info.h /usr/include/mach/ppc/rpc.h
+ofile.o: /usr/include/mach/ppc/task.h /usr/include/mach/ppc/thread_act.h
+ofile.o: /usr/include/mach/ppc/thread_state.h
+ofile.o: /usr/include/mach/ppc/thread_status.h /usr/include/mach/ppc/vm_param.h
+ofile.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/processor.h
+ofile.o: /usr/include/mach/processor_info.h /usr/include/mach/processor_set.h
+ofile.o: /usr/include/mach/rpc.h /usr/include/mach/semaphore.h
+ofile.o: /usr/include/mach/std_types.h /usr/include/mach/sync_policy.h
+ofile.o: /usr/include/mach/task.h /usr/include/mach/task_info.h
+ofile.o: /usr/include/mach/task_policy.h /usr/include/mach/task_special_ports.h
+ofile.o: /usr/include/mach/thread_act.h /usr/include/mach/thread_info.h
+ofile.o: /usr/include/mach/thread_policy.h
+ofile.o: /usr/include/mach/thread_special_ports.h
+ofile.o: /usr/include/mach/thread_status.h /usr/include/mach/thread_switch.h
+ofile.o: /usr/include/mach/time_value.h /usr/include/mach/vm_attributes.h
+ofile.o: /usr/include/mach/vm_behavior.h /usr/include/mach/vm_inherit.h
+ofile.o: /usr/include/mach/vm_map.h /usr/include/mach/vm_prot.h
+ofile.o: /usr/include/mach/vm_purgable.h /usr/include/mach/vm_region.h
+ofile.o: /usr/include/mach/vm_statistics.h /usr/include/mach/vm_sync.h
+ofile.o: /usr/include/mach/vm_types.h /usr/include/mach_debug/hash_info.h
+ofile.o: /usr/include/mach_debug/ipc_info.h
+ofile.o: /usr/include/mach_debug/lockgroup_info.h
+ofile.o: /usr/include/mach_debug/mach_debug_types.h
+ofile.o: /usr/include/mach_debug/page_info.h /usr/include/mach_debug/vm_info.h
+ofile.o: /usr/include/mach_debug/zone_info.h /usr/include/machine/_limits.h
+ofile.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+ofile.o: /usr/include/machine/limits.h /usr/include/machine/param.h
+ofile.o: /usr/include/machine/signal.h /usr/include/machine/types.h
+ofile.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+ofile.o: /usr/include/ppc/_limits.h /usr/include/ppc/_types.h
+ofile.o: /usr/include/ppc/endian.h /usr/include/ppc/limits.h
+ofile.o: /usr/include/ppc/param.h /usr/include/ppc/signal.h
+ofile.o: /usr/include/ppc/types.h /usr/include/ppc/vmparam.h
+ofile.o: /usr/include/runetype.h /usr/include/signal.h /usr/include/standards.h
+ofile.o: /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h
+ofile.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+ofile.o: /usr/include/sys/appleapiopts.h /usr/include/sys/attr.h
+ofile.o: /usr/include/sys/cdefs.h /usr/include/sys/errno.h
+ofile.o: /usr/include/sys/fcntl.h /usr/include/sys/file.h
+ofile.o: /usr/include/sys/filio.h /usr/include/sys/ioccom.h
+ofile.o: /usr/include/sys/ioctl.h /usr/include/sys/mman.h
+ofile.o: /usr/include/sys/mount.h /usr/include/sys/param.h
+ofile.o: /usr/include/sys/queue.h /usr/include/sys/resource.h
+ofile.o: /usr/include/sys/select.h /usr/include/sys/signal.h
+ofile.o: /usr/include/sys/socket.h /usr/include/sys/sockio.h
+ofile.o: /usr/include/sys/stat.h /usr/include/sys/syslimits.h
+ofile.o: /usr/include/sys/time.h /usr/include/sys/times.h
+ofile.o: /usr/include/sys/ttycom.h /usr/include/sys/types.h
+ofile.o: /usr/include/sys/ucred.h /usr/include/sys/unistd.h
+ofile.o: /usr/include/sys/wait.h /usr/include/time.h /usr/include/unistd.h
+ofile.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/limits.h
+ofile.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdarg.h
+ofile.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stddef.h
+ofile.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdint.h
+ofile.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/syslimits.h
+# Dependencies for File: private_callback.o:
+private_callback.o: ../../dyld/dyld_debug_defs.h ../../include/mach-o/dyld.h
+private_callback.o: ../../include/mach-o/dyld_debug.h
+private_callback.o: ../../include/mach-o/loader.h ../../include/mach/machine.h
+private_callback.o: ../private_callback.c /usr/include/AvailabilityMacros.h
+private_callback.o: /usr/include/_types.h
+private_callback.o: /usr/include/architecture/byte_order.h
+private_callback.o: /usr/include/libkern/OSByteOrder.h
+private_callback.o: /usr/include/libkern/ppc/OSByteOrder.h
+private_callback.o: /usr/include/mach/boolean.h /usr/include/mach/clock_priv.h
+private_callback.o: /usr/include/mach/clock_types.h /usr/include/mach/error.h
+private_callback.o: /usr/include/mach/exception_types.h
+private_callback.o: /usr/include/mach/host_info.h
+private_callback.o: /usr/include/mach/host_notify.h
+private_callback.o: /usr/include/mach/host_priv.h
+private_callback.o: /usr/include/mach/host_security.h
+private_callback.o: /usr/include/mach/host_special_ports.h
+private_callback.o: /usr/include/mach/kern_return.h /usr/include/mach/kmod.h
+private_callback.o: /usr/include/mach/ledger.h /usr/include/mach/lock_set.h
+private_callback.o: /usr/include/mach/mach.h /usr/include/mach/mach_error.h
+private_callback.o: /usr/include/mach/mach_host.h /usr/include/mach/mach_init.h
+private_callback.o: /usr/include/mach/mach_interface.h
+private_callback.o: /usr/include/mach/mach_port.h
+private_callback.o: /usr/include/mach/mach_traps.h
+private_callback.o: /usr/include/mach/mach_types.h
+private_callback.o: /usr/include/mach/machine/boolean.h
+private_callback.o: /usr/include/mach/machine/exception.h
+private_callback.o: /usr/include/mach/machine/kern_return.h
+private_callback.o: /usr/include/mach/machine/processor_info.h
+private_callback.o: /usr/include/mach/machine/rpc.h
+private_callback.o: /usr/include/mach/machine/thread_state.h
+private_callback.o: /usr/include/mach/machine/thread_status.h
+private_callback.o: /usr/include/mach/machine/vm_param.h
+private_callback.o: /usr/include/mach/machine/vm_types.h
+private_callback.o: /usr/include/mach/memory_object_types.h
+private_callback.o: /usr/include/mach/message.h /usr/include/mach/mig.h
+private_callback.o: /usr/include/mach/mig_errors.h /usr/include/mach/ndr.h
+private_callback.o: /usr/include/mach/notify.h /usr/include/mach/policy.h
+private_callback.o: /usr/include/mach/port.h /usr/include/mach/ppc/_types.h
+private_callback.o: /usr/include/mach/ppc/boolean.h
+private_callback.o: /usr/include/mach/ppc/exception.h
+private_callback.o: /usr/include/mach/ppc/kern_return.h
+private_callback.o: /usr/include/mach/ppc/processor_info.h
+private_callback.o: /usr/include/mach/ppc/rpc.h /usr/include/mach/ppc/task.h
+private_callback.o: /usr/include/mach/ppc/thread_act.h
+private_callback.o: /usr/include/mach/ppc/thread_state.h
+private_callback.o: /usr/include/mach/ppc/thread_status.h
+private_callback.o: /usr/include/mach/ppc/vm_param.h
+private_callback.o: /usr/include/mach/ppc/vm_types.h
+private_callback.o: /usr/include/mach/processor.h
+private_callback.o: /usr/include/mach/processor_info.h
+private_callback.o: /usr/include/mach/processor_set.h /usr/include/mach/rpc.h
+private_callback.o: /usr/include/mach/semaphore.h /usr/include/mach/std_types.h
+private_callback.o: /usr/include/mach/sync_policy.h /usr/include/mach/task.h
+private_callback.o: /usr/include/mach/task_info.h
+private_callback.o: /usr/include/mach/task_policy.h
+private_callback.o: /usr/include/mach/task_special_ports.h
+private_callback.o: /usr/include/mach/thread_act.h
+private_callback.o: /usr/include/mach/thread_info.h
+private_callback.o: /usr/include/mach/thread_policy.h
+private_callback.o: /usr/include/mach/thread_special_ports.h
+private_callback.o: /usr/include/mach/thread_status.h
+private_callback.o: /usr/include/mach/thread_switch.h
+private_callback.o: /usr/include/mach/time_value.h
+private_callback.o: /usr/include/mach/vm_attributes.h
+private_callback.o: /usr/include/mach/vm_behavior.h
+private_callback.o: /usr/include/mach/vm_inherit.h /usr/include/mach/vm_map.h
+private_callback.o: /usr/include/mach/vm_prot.h /usr/include/mach/vm_purgable.h
+private_callback.o: /usr/include/mach/vm_region.h
+private_callback.o: /usr/include/mach/vm_statistics.h
+private_callback.o: /usr/include/mach/vm_sync.h /usr/include/mach/vm_types.h
+private_callback.o: /usr/include/mach_debug/hash_info.h
+private_callback.o: /usr/include/mach_debug/ipc_info.h
+private_callback.o: /usr/include/mach_debug/lockgroup_info.h
+private_callback.o: /usr/include/mach_debug/mach_debug_types.h
+private_callback.o: /usr/include/mach_debug/page_info.h
+private_callback.o: /usr/include/mach_debug/vm_info.h
+private_callback.o: /usr/include/mach_debug/zone_info.h
+private_callback.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+private_callback.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+private_callback.o: /usr/include/ppc/vmparam.h /usr/include/stdio.h
+private_callback.o: /usr/include/string.h /usr/include/sys/_endian.h
+private_callback.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+private_callback.o: /usr/include/sys/cdefs.h /usr/include/sys/resource.h
+private_callback.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdarg.h
+private_callback.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdint.h
+private_callback.o: _dyld_debug.h
+# Dependencies for File: register_funcs.o:
+register_funcs.o: ../../include/mach-o/dyld.h ../../include/mach-o/loader.h
+register_funcs.o: ../../include/mach/machine.h ../register_funcs.c
+register_funcs.o: /usr/include/AvailabilityMacros.h /usr/include/_types.h
+register_funcs.o: /usr/include/architecture/byte_order.h
+register_funcs.o: /usr/include/libkern/OSByteOrder.h
+register_funcs.o: /usr/include/libkern/ppc/OSByteOrder.h
+register_funcs.o: /usr/include/mach/boolean.h /usr/include/mach/kern_return.h
+register_funcs.o: /usr/include/mach/machine/boolean.h
+register_funcs.o: /usr/include/mach/machine/kern_return.h
+register_funcs.o: /usr/include/mach/machine/thread_status.h
+register_funcs.o: /usr/include/mach/machine/vm_types.h
+register_funcs.o: /usr/include/mach/message.h /usr/include/mach/port.h
+register_funcs.o: /usr/include/mach/ppc/_types.h
+register_funcs.o: /usr/include/mach/ppc/boolean.h
+register_funcs.o: /usr/include/mach/ppc/kern_return.h
+register_funcs.o: /usr/include/mach/ppc/thread_status.h
+register_funcs.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/vm_prot.h
+register_funcs.o: /usr/include/machine/_types.h /usr/include/ppc/_types.h
+register_funcs.o: /usr/include/ppc/vmparam.h /usr/include/stdio.h
+register_funcs.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+register_funcs.o: /usr/include/sys/cdefs.h /usr/include/sys/resource.h
+register_funcs.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+# Dependencies for File: runtime_loading.o:
+runtime_loading.o: ../../include/ar.h ../../include/architecture/m88k/fp_regs.h
+runtime_loading.o: ../../include/architecture/m88k/reg_help.h
+runtime_loading.o: ../../include/architecture/nrw/reg_help.h
+runtime_loading.o: ../../include/architecture/sparc/reg.h
+runtime_loading.o: ../../include/mach-o/dyld.h ../../include/mach-o/fat.h
+runtime_loading.o: ../../include/mach-o/loader.h ../../include/mach-o/nlist.h
+runtime_loading.o: ../../include/mach-o/ranlib.h ../../include/mach-o/reloc.h
+runtime_loading.o: ../../include/mach/hppa/thread_status.h
+runtime_loading.o: ../../include/mach/i860/thread_status.h
+runtime_loading.o: ../../include/mach/m68k/thread_status.h
+runtime_loading.o: ../../include/mach/m88k/thread_status.h
+runtime_loading.o: ../../include/mach/machine.h
+runtime_loading.o: ../../include/mach/sparc/thread_status.h
+runtime_loading.o: ../../include/stuff/arch.h ../../include/stuff/bool.h
+runtime_loading.o: ../../include/stuff/bytesex.h ../../include/stuff/ofile.h
+runtime_loading.o: ../ofi.h ../runtime_loading.c
+runtime_loading.o: /usr/include/AvailabilityMacros.h /usr/include/_types.h
+runtime_loading.o: /usr/include/architecture/byte_order.h
+runtime_loading.o: /usr/include/i386/eflags.h
+runtime_loading.o: /usr/include/libkern/OSByteOrder.h
+runtime_loading.o: /usr/include/libkern/ppc/OSByteOrder.h
+runtime_loading.o: /usr/include/mach/boolean.h /usr/include/mach/i386/fp_reg.h
+runtime_loading.o: /usr/include/mach/i386/thread_state.h
+runtime_loading.o: /usr/include/mach/i386/thread_status.h
+runtime_loading.o: /usr/include/mach/kern_return.h
+runtime_loading.o: /usr/include/mach/machine/boolean.h
+runtime_loading.o: /usr/include/mach/machine/kern_return.h
+runtime_loading.o: /usr/include/mach/machine/thread_status.h
+runtime_loading.o: /usr/include/mach/machine/vm_types.h
+runtime_loading.o: /usr/include/mach/message.h /usr/include/mach/port.h
+runtime_loading.o: /usr/include/mach/ppc/_types.h
+runtime_loading.o: /usr/include/mach/ppc/boolean.h
+runtime_loading.o: /usr/include/mach/ppc/kern_return.h
+runtime_loading.o: /usr/include/mach/ppc/thread_status.h
+runtime_loading.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/vm_prot.h
+runtime_loading.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+runtime_loading.o: /usr/include/machine/types.h /usr/include/ppc/_types.h
+runtime_loading.o: /usr/include/ppc/endian.h /usr/include/ppc/types.h
+runtime_loading.o: /usr/include/ppc/vmparam.h /usr/include/stdio.h
+runtime_loading.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+runtime_loading.o: /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h
+runtime_loading.o: /usr/include/sys/resource.h /usr/include/sys/types.h
+runtime_loading.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h

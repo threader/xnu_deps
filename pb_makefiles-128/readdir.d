@@ -1,0 +1,1 @@
+readdir.o: readdir.c

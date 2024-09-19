@@ -1,0 +1,1 @@
+ const unsigned char libunwindVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:libunwind  PROJECT:libunwind-  DEVELOPER:root  BUILT:" __DATE__  " " __TIME__ "" "\n"; const double libunwindVersionNumber __attribute__ ((used)) = (double)0.;

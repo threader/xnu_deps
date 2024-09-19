@@ -1,0 +1,19 @@
+/* : : generated from /tmp/ksh/Build/src/cmd/ksh93/features/options by iffe version 2011-01-07 : : */
+#ifndef _def_options_ksh93
+#define _def_options_ksh93	1
+#define _sys_types	1	/* #include <sys/types.h> ok */
+#define _LIB_dll	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libdll.a is a library */
+#define _LIB_ast	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libast.a is a library */
+#define _LIB_iconv	1	/* -liconv is a library */
+#define _LIB_coshell	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libcoshell.a is a library */
+#define _LIB_cmd	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libcmd.a is a library */
+#define SHELLMAGIC	1
+#undef  SHOPT_DEVFD
+#undef  SHOPT_PFSH
+#undef  SHOPT_TEST_L
+#undef  SHOPT_UCB
+#if !_PACKAGE_ast && ( (MB_LEN_MAX-1)<=0 || !defined(_lib_mbtowc) )
+#   undef SHOPT_MULTIBYTE
+#endif
+
+#endif

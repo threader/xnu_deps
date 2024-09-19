@@ -1,0 +1,7 @@
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/libunwind-30/build/libunwind.build/Release/libunwind-libSystem.build/Objects-normal/ppc/libuwind.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/libunwind-30/build/libunwind.build/Release/libunwind-libSystem.build/Objects-normal/ppc/Registers.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/libunwind-30/build/libunwind.build/Release/libunwind-libSystem.build/Objects-normal/ppc/unw_getcontext.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/libunwind-30/build/libunwind.build/Release/libunwind-libSystem.build/Objects-normal/ppc/UnwindLevel1.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/libunwind-30/build/libunwind.build/Release/libunwind-libSystem.build/Objects-normal/ppc/UnwindLevel1-gcc-ext.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/libunwind-30/build/libunwind.build/Release/libunwind-libSystem.build/Objects-normal/ppc/Unwind-sjlj.o
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/libunwind-30/build/libunwind.build/Release/libunwind-libSystem.build/Objects-normal/ppc/libunwind_vers.o

@@ -1,0 +1,107 @@
+# Dependencies for File: apple_version.o:
+apple_version.o: apple_version.c
+# Dependencies for File: driver.o:
+driver.o: ../../include/architecture/m88k/fp_regs.h
+driver.o: ../../include/architecture/m88k/reg_help.h
+driver.o: ../../include/architecture/nrw/reg_help.h
+driver.o: ../../include/architecture/sparc/reg.h ../../include/mach-o/dyld.h
+driver.o: ../../include/mach-o/fat.h ../../include/mach-o/loader.h
+driver.o: ../../include/mach-o/nlist.h ../../include/mach-o/ranlib.h
+driver.o: ../../include/mach-o/reloc.h ../../include/mach/arm/thread_status.h
+driver.o: ../../include/mach/hppa/thread_status.h
+driver.o: ../../include/mach/i860/thread_status.h
+driver.o: ../../include/mach/m68k/thread_status.h
+driver.o: ../../include/mach/m88k/thread_status.h ../../include/mach/machine.h
+driver.o: ../../include/mach/ppc/_structs.h
+driver.o: ../../include/mach/ppc/thread_status.h
+driver.o: ../../include/mach/sparc/thread_status.h
+driver.o: ../../include/stuff/allocate.h ../../include/stuff/arch.h
+driver.o: ../../include/stuff/bool.h ../../include/stuff/bytesex.h
+driver.o: ../../include/stuff/errors.h ../../include/stuff/execute.h
+driver.o: ../driver.c /usr/include/AvailabilityMacros.h /usr/include/_types.h
+driver.o: /usr/include/alloca.h /usr/include/architecture/byte_order.h
+driver.o: /usr/include/arpa/inet.h /usr/include/bsm/audit.h
+driver.o: /usr/include/i386/eflags.h /usr/include/libc.h
+driver.o: /usr/include/libkern/OSByteOrder.h
+driver.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+driver.o: /usr/include/mach/boolean.h /usr/include/mach/clock_priv.h
+driver.o: /usr/include/mach/clock_types.h /usr/include/mach/error.h
+driver.o: /usr/include/mach/exception_types.h /usr/include/mach/host_info.h
+driver.o: /usr/include/mach/host_notify.h /usr/include/mach/host_priv.h
+driver.o: /usr/include/mach/host_security.h
+driver.o: /usr/include/mach/host_special_ports.h
+driver.o: /usr/include/mach/i386/fp_reg.h /usr/include/mach/i386/thread_state.h
+driver.o: /usr/include/mach/i386/thread_status.h
+driver.o: /usr/include/mach/kern_return.h /usr/include/mach/kmod.h
+driver.o: /usr/include/mach/ledger.h /usr/include/mach/lock_set.h
+driver.o: /usr/include/mach/mach.h /usr/include/mach/mach_error.h
+driver.o: /usr/include/mach/mach_host.h /usr/include/mach/mach_init.h
+driver.o: /usr/include/mach/mach_interface.h /usr/include/mach/mach_port.h
+driver.o: /usr/include/mach/mach_traps.h /usr/include/mach/mach_types.h
+driver.o: /usr/include/mach/machine/boolean.h
+driver.o: /usr/include/mach/machine/exception.h
+driver.o: /usr/include/mach/machine/kern_return.h
+driver.o: /usr/include/mach/machine/processor_info.h
+driver.o: /usr/include/mach/machine/rpc.h
+driver.o: /usr/include/mach/machine/thread_state.h
+driver.o: /usr/include/mach/machine/thread_status.h
+driver.o: /usr/include/mach/machine/vm_param.h
+driver.o: /usr/include/mach/machine/vm_types.h
+driver.o: /usr/include/mach/memory_object_types.h /usr/include/mach/message.h
+driver.o: /usr/include/mach/mig.h /usr/include/mach/mig_errors.h
+driver.o: /usr/include/mach/ndr.h /usr/include/mach/notify.h
+driver.o: /usr/include/mach/policy.h /usr/include/mach/port.h
+driver.o: /usr/include/mach/ppc/boolean.h /usr/include/mach/ppc/exception.h
+driver.o: /usr/include/mach/ppc/kern_return.h
+driver.o: /usr/include/mach/ppc/processor_info.h /usr/include/mach/ppc/rpc.h
+driver.o: /usr/include/mach/ppc/task.h /usr/include/mach/ppc/thread_act.h
+driver.o: /usr/include/mach/ppc/thread_state.h /usr/include/mach/ppc/vm_param.h
+driver.o: /usr/include/mach/ppc/vm_types.h /usr/include/mach/processor.h
+driver.o: /usr/include/mach/processor_info.h /usr/include/mach/processor_set.h
+driver.o: /usr/include/mach/rpc.h /usr/include/mach/semaphore.h
+driver.o: /usr/include/mach/std_types.h /usr/include/mach/sync_policy.h
+driver.o: /usr/include/mach/task.h /usr/include/mach/task_info.h
+driver.o: /usr/include/mach/task_policy.h
+driver.o: /usr/include/mach/task_special_ports.h /usr/include/mach/thread_act.h
+driver.o: /usr/include/mach/thread_info.h /usr/include/mach/thread_policy.h
+driver.o: /usr/include/mach/thread_special_ports.h
+driver.o: /usr/include/mach/thread_status.h /usr/include/mach/thread_switch.h
+driver.o: /usr/include/mach/time_value.h /usr/include/mach/vm_attributes.h
+driver.o: /usr/include/mach/vm_behavior.h /usr/include/mach/vm_inherit.h
+driver.o: /usr/include/mach/vm_map.h /usr/include/mach/vm_prot.h
+driver.o: /usr/include/mach/vm_purgable.h /usr/include/mach/vm_region.h
+driver.o: /usr/include/mach/vm_statistics.h /usr/include/mach/vm_sync.h
+driver.o: /usr/include/mach/vm_types.h /usr/include/mach_debug/hash_info.h
+driver.o: /usr/include/mach_debug/ipc_info.h
+driver.o: /usr/include/mach_debug/lockgroup_info.h
+driver.o: /usr/include/mach_debug/mach_debug_types.h
+driver.o: /usr/include/mach_debug/page_info.h /usr/include/mach_debug/vm_info.h
+driver.o: /usr/include/mach_debug/zone_info.h /usr/include/machine/_limits.h
+driver.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+driver.o: /usr/include/machine/limits.h /usr/include/machine/param.h
+driver.o: /usr/include/machine/signal.h /usr/include/machine/types.h
+driver.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+driver.o: /usr/include/ppc/_limits.h /usr/include/ppc/_types.h
+driver.o: /usr/include/ppc/endian.h /usr/include/ppc/limits.h
+driver.o: /usr/include/ppc/param.h /usr/include/ppc/signal.h
+driver.o: /usr/include/ppc/types.h /usr/include/ppc/vmparam.h
+driver.o: /usr/include/signal.h /usr/include/standards.h /usr/include/stdio.h
+driver.o: /usr/include/stdlib.h /usr/include/string.h
+driver.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+driver.o: /usr/include/sys/appleapiopts.h /usr/include/sys/attr.h
+driver.o: /usr/include/sys/cdefs.h /usr/include/sys/fcntl.h
+driver.o: /usr/include/sys/file.h /usr/include/sys/filio.h
+driver.o: /usr/include/sys/ioccom.h /usr/include/sys/ioctl.h
+driver.o: /usr/include/sys/mount.h /usr/include/sys/param.h
+driver.o: /usr/include/sys/queue.h /usr/include/sys/resource.h
+driver.o: /usr/include/sys/select.h /usr/include/sys/signal.h
+driver.o: /usr/include/sys/socket.h /usr/include/sys/sockio.h
+driver.o: /usr/include/sys/stat.h /usr/include/sys/syslimits.h
+driver.o: /usr/include/sys/time.h /usr/include/sys/times.h
+driver.o: /usr/include/sys/ttycom.h /usr/include/sys/types.h
+driver.o: /usr/include/sys/ucred.h /usr/include/sys/unistd.h
+driver.o: /usr/include/sys/wait.h /usr/include/time.h /usr/include/unistd.h
+driver.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/limits.h
+driver.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdarg.h
+driver.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/stdint.h
+driver.o: /usr/lib/gcc/powerpc-apple-darwin8/4.2.1/include/syslimits.h

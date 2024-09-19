@@ -1,0 +1,5 @@
+/* : : generated from /tmp/ksh/Build/src/lib/libast/features/syscall by iffe version 2011-01-07 : : */
+#ifndef _def_syscall_ast
+#define _def_syscall_ast	1
+#define _sys_types	1	/* #include <sys/types.h> ok */
+#endif

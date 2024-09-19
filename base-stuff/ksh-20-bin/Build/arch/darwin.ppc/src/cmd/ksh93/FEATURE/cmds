@@ -1,0 +1,22 @@
+/* : : generated from /tmp/ksh/Build/src/cmd/ksh93/features/cmds by iffe version 2011-01-07 : : */
+#ifndef _def_cmds_ksh93
+#define _def_cmds_ksh93	1
+#define _sys_types	1	/* #include <sys/types.h> ok */
+#define _LIB_dll	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libdll.a is a library */
+#define _LIB_ast	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libast.a is a library */
+#define _LIB_iconv	1	/* -liconv is a library */
+#define _LIB_coshell	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libcoshell.a is a library */
+#define _LIB_cmd	1	/* /tmp/ksh/Build/arch/darwin.ppc/lib/libcmd.a is a library */
+#define _cmd_test	1	/* test in ?(/usr)/(bin|etc|ucb) */
+#define _bin_test	1	/* /bin/test found */
+#define _cmd_id	1	/* id in ?(/usr)/(bin|etc|ucb) */
+#define _usr_bin_id	1	/* /usr/bin/id found */
+#define _cmd_wc	1	/* wc in ?(/usr)/(bin|etc|ucb) */
+#define _usr_bin_wc	1	/* /usr/bin/wc found */
+#define _cmd_cut	1	/* cut in ?(/usr)/(bin|etc|ucb) */
+#define _usr_bin_cut	1	/* /usr/bin/cut found */
+#define _cmd_logname	1	/* logname in ?(/usr)/(bin|etc|ucb) */
+#define _usr_bin_logname	1	/* /usr/bin/logname found */
+#define _cmd_tput	1	/* tput in ?(/usr)/(bin|etc|ucb) */
+#define _usr_bin_tput	1	/* /usr/bin/tput found */
+#endif

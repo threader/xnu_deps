@@ -1,0 +1,1 @@
+gnumake install RC_OS=macos RC_ARCHS=ppc TARGETS=ppc SRCROOT=`pwd` OBJROOT=`pwd`/build/obj DSTROOT=`pwd`/build/dst SYMROOT=`pwd`/build/sym

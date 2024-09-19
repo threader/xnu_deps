@@ -1,0 +1,1 @@
+#define SERIAL_CONSOLE_DEFAULT 0

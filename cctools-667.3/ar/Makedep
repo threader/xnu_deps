@@ -1,0 +1,253 @@
+# Dependencies for File: append.o:
+append.o: /usr/include/_types.h /usr/include/dirent.h /usr/include/err.h
+append.o: /usr/include/fcntl.h /usr/include/libkern/OSByteOrder.h
+append.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+append.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+append.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+append.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+append.o: /usr/include/machine/types.h /usr/include/ppc/_limits.h
+append.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+append.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+append.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+append.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/string.h
+append.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+append.o: /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h
+append.o: /usr/include/sys/dirent.h /usr/include/sys/fcntl.h
+append.o: /usr/include/sys/param.h /usr/include/sys/select.h
+append.o: /usr/include/sys/signal.h /usr/include/sys/stat.h
+append.o: /usr/include/sys/syslimits.h /usr/include/sys/time.h
+append.o: /usr/include/sys/types.h /usr/include/sys/unistd.h
+append.o: /usr/include/time.h /usr/include/unistd.h
+append.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+append.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+append.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h append.c
+append.o: archive.h extern.h
+# Dependencies for File: ar.o:
+ar.o: ../include/ar.h ../include/stuff/bool.h ../include/stuff/execute.h
+ar.o: ../include/stuff/unix_standard_mode.h /usr/include/_types.h
+ar.o: /usr/include/alloca.h /usr/include/dirent.h /usr/include/err.h
+ar.o: /usr/include/libkern/OSByteOrder.h /usr/include/libkern/ppc/OSByteOrder.h
+ar.o: /usr/include/limits.h /usr/include/machine/_limits.h
+ar.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+ar.o: /usr/include/machine/limits.h /usr/include/machine/param.h
+ar.o: /usr/include/machine/signal.h /usr/include/machine/types.h
+ar.o: /usr/include/paths.h /usr/include/ppc/_limits.h /usr/include/ppc/_types.h
+ar.o: /usr/include/ppc/endian.h /usr/include/ppc/limits.h
+ar.o: /usr/include/ppc/param.h /usr/include/ppc/signal.h
+ar.o: /usr/include/ppc/types.h /usr/include/signal.h /usr/include/stdio.h
+ar.o: /usr/include/stdlib.h /usr/include/string.h /usr/include/sys/_endian.h
+ar.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+ar.o: /usr/include/sys/cdefs.h /usr/include/sys/dirent.h
+ar.o: /usr/include/sys/param.h /usr/include/sys/paths.h
+ar.o: /usr/include/sys/resource.h /usr/include/sys/select.h
+ar.o: /usr/include/sys/signal.h /usr/include/sys/syslimits.h
+ar.o: /usr/include/sys/time.h /usr/include/sys/types.h
+ar.o: /usr/include/sys/unistd.h /usr/include/sys/wait.h /usr/include/time.h
+ar.o: /usr/include/unistd.h
+ar.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+ar.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+ar.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h ar.c
+ar.o: archive.h extern.h
+# Dependencies for File: archive.o:
+archive.o: ../include/ar.h ../include/mach-o/fat.h ../include/mach/machine.h
+archive.o: /usr/include/_types.h /usr/include/alloca.h
+archive.o: /usr/include/architecture/byte_order.h /usr/include/dirent.h
+archive.o: /usr/include/err.h /usr/include/errno.h /usr/include/fcntl.h
+archive.o: /usr/include/libkern/OSByteOrder.h
+archive.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+archive.o: /usr/include/mach/boolean.h /usr/include/mach/machine/boolean.h
+archive.o: /usr/include/mach/machine/vm_types.h /usr/include/mach/ppc/boolean.h
+archive.o: /usr/include/mach/ppc/vm_types.h /usr/include/machine/_limits.h
+archive.o: /usr/include/machine/_types.h /usr/include/machine/endian.h
+archive.o: /usr/include/machine/limits.h /usr/include/machine/param.h
+archive.o: /usr/include/machine/signal.h /usr/include/machine/types.h
+archive.o: /usr/include/ppc/_limits.h /usr/include/ppc/_types.h
+archive.o: /usr/include/ppc/endian.h /usr/include/ppc/limits.h
+archive.o: /usr/include/ppc/param.h /usr/include/ppc/signal.h
+archive.o: /usr/include/ppc/types.h /usr/include/ppc/vmparam.h
+archive.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/stdlib.h
+archive.o: /usr/include/string.h /usr/include/sys/_endian.h
+archive.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+archive.o: /usr/include/sys/cdefs.h /usr/include/sys/dirent.h
+archive.o: /usr/include/sys/errno.h /usr/include/sys/fcntl.h
+archive.o: /usr/include/sys/param.h /usr/include/sys/resource.h
+archive.o: /usr/include/sys/select.h /usr/include/sys/signal.h
+archive.o: /usr/include/sys/stat.h /usr/include/sys/syslimits.h
+archive.o: /usr/include/sys/time.h /usr/include/sys/types.h
+archive.o: /usr/include/sys/unistd.h /usr/include/sys/wait.h
+archive.o: /usr/include/time.h /usr/include/unistd.h
+archive.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+archive.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+archive.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h
+archive.o: archive.c archive.h extern.h
+# Dependencies for File: contents.o:
+contents.o: ../include/ar.h /usr/include/_types.h /usr/include/dirent.h
+contents.o: /usr/include/fcntl.h /usr/include/libkern/OSByteOrder.h
+contents.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+contents.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+contents.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+contents.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+contents.o: /usr/include/machine/types.h /usr/include/ppc/_limits.h
+contents.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+contents.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+contents.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+contents.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/string.h
+contents.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+contents.o: /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h
+contents.o: /usr/include/sys/dirent.h /usr/include/sys/fcntl.h
+contents.o: /usr/include/sys/param.h /usr/include/sys/select.h
+contents.o: /usr/include/sys/signal.h /usr/include/sys/stat.h
+contents.o: /usr/include/sys/syslimits.h /usr/include/sys/time.h
+contents.o: /usr/include/sys/types.h /usr/include/sys/unistd.h
+contents.o: /usr/include/time.h /usr/include/tzfile.h /usr/include/unistd.h
+contents.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+contents.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+contents.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h
+contents.o: archive.h contents.c extern.h
+# Dependencies for File: delete.o:
+delete.o: ../include/ar.h /usr/include/_types.h /usr/include/dirent.h
+delete.o: /usr/include/fcntl.h /usr/include/libkern/OSByteOrder.h
+delete.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+delete.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+delete.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+delete.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+delete.o: /usr/include/machine/types.h /usr/include/ppc/_limits.h
+delete.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+delete.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+delete.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+delete.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/sys/_endian.h
+delete.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+delete.o: /usr/include/sys/cdefs.h /usr/include/sys/dirent.h
+delete.o: /usr/include/sys/fcntl.h /usr/include/sys/param.h
+delete.o: /usr/include/sys/select.h /usr/include/sys/signal.h
+delete.o: /usr/include/sys/stat.h /usr/include/sys/syslimits.h
+delete.o: /usr/include/sys/time.h /usr/include/sys/types.h
+delete.o: /usr/include/sys/unistd.h /usr/include/time.h /usr/include/unistd.h
+delete.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+delete.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+delete.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h
+delete.o: archive.h delete.c extern.h pathnames.h
+# Dependencies for File: extract.o:
+extract.o: /usr/include/_types.h /usr/include/dirent.h /usr/include/err.h
+extract.o: /usr/include/fcntl.h /usr/include/libkern/OSByteOrder.h
+extract.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+extract.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+extract.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+extract.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+extract.o: /usr/include/machine/types.h /usr/include/ppc/_limits.h
+extract.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+extract.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+extract.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+extract.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/string.h
+extract.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+extract.o: /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h
+extract.o: /usr/include/sys/dirent.h /usr/include/sys/fcntl.h
+extract.o: /usr/include/sys/param.h /usr/include/sys/select.h
+extract.o: /usr/include/sys/signal.h /usr/include/sys/stat.h
+extract.o: /usr/include/sys/syslimits.h /usr/include/sys/time.h
+extract.o: /usr/include/sys/types.h /usr/include/sys/unistd.h
+extract.o: /usr/include/time.h /usr/include/unistd.h
+extract.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+extract.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+extract.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h
+extract.o: archive.h extern.h extract.c
+# Dependencies for File: misc.o:
+misc.o: /usr/include/_types.h /usr/include/alloca.h /usr/include/dirent.h
+misc.o: /usr/include/err.h /usr/include/errno.h
+misc.o: /usr/include/libkern/OSByteOrder.h
+misc.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+misc.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+misc.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+misc.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+misc.o: /usr/include/machine/types.h /usr/include/ppc/_limits.h
+misc.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+misc.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+misc.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+misc.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/stdlib.h
+misc.o: /usr/include/string.h /usr/include/sys/_endian.h
+misc.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+misc.o: /usr/include/sys/cdefs.h /usr/include/sys/dirent.h
+misc.o: /usr/include/sys/errno.h /usr/include/sys/param.h
+misc.o: /usr/include/sys/resource.h /usr/include/sys/select.h
+misc.o: /usr/include/sys/signal.h /usr/include/sys/syslimits.h
+misc.o: /usr/include/sys/time.h /usr/include/sys/types.h
+misc.o: /usr/include/sys/unistd.h /usr/include/sys/wait.h /usr/include/time.h
+misc.o: /usr/include/unistd.h
+misc.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+misc.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+misc.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h archive.h
+misc.o: extern.h misc.c pathnames.h
+# Dependencies for File: move.o:
+move.o: ../include/ar.h /usr/include/_types.h /usr/include/dirent.h
+move.o: /usr/include/err.h /usr/include/fcntl.h
+move.o: /usr/include/libkern/OSByteOrder.h
+move.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+move.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+move.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+move.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+move.o: /usr/include/machine/types.h /usr/include/ppc/_limits.h
+move.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+move.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+move.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+move.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/sys/_endian.h
+move.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+move.o: /usr/include/sys/cdefs.h /usr/include/sys/dirent.h
+move.o: /usr/include/sys/fcntl.h /usr/include/sys/param.h
+move.o: /usr/include/sys/select.h /usr/include/sys/signal.h
+move.o: /usr/include/sys/stat.h /usr/include/sys/syslimits.h
+move.o: /usr/include/sys/time.h /usr/include/sys/types.h
+move.o: /usr/include/sys/unistd.h /usr/include/time.h /usr/include/unistd.h
+move.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+move.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+move.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h archive.h
+move.o: extern.h move.c pathnames.h
+# Dependencies for File: print.o:
+print.o: /usr/include/_types.h /usr/include/dirent.h /usr/include/fcntl.h
+print.o: /usr/include/libkern/OSByteOrder.h
+print.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+print.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+print.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+print.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+print.o: /usr/include/machine/types.h /usr/include/ppc/_limits.h
+print.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+print.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+print.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+print.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/sys/_endian.h
+print.o: /usr/include/sys/_types.h /usr/include/sys/appleapiopts.h
+print.o: /usr/include/sys/cdefs.h /usr/include/sys/dirent.h
+print.o: /usr/include/sys/fcntl.h /usr/include/sys/param.h
+print.o: /usr/include/sys/select.h /usr/include/sys/signal.h
+print.o: /usr/include/sys/syslimits.h /usr/include/sys/time.h
+print.o: /usr/include/sys/types.h /usr/include/sys/unistd.h /usr/include/time.h
+print.o: /usr/include/unistd.h
+print.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+print.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+print.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h archive.h
+print.o: extern.h print.c
+# Dependencies for File: replace.o:
+replace.o: ../include/ar.h /usr/include/_types.h /usr/include/dirent.h
+replace.o: /usr/include/err.h /usr/include/fcntl.h
+replace.o: /usr/include/libkern/OSByteOrder.h
+replace.o: /usr/include/libkern/ppc/OSByteOrder.h /usr/include/limits.h
+replace.o: /usr/include/machine/_limits.h /usr/include/machine/_types.h
+replace.o: /usr/include/machine/endian.h /usr/include/machine/limits.h
+replace.o: /usr/include/machine/param.h /usr/include/machine/signal.h
+replace.o: /usr/include/machine/types.h /usr/include/ppc/_limits.h
+replace.o: /usr/include/ppc/_types.h /usr/include/ppc/endian.h
+replace.o: /usr/include/ppc/limits.h /usr/include/ppc/param.h
+replace.o: /usr/include/ppc/signal.h /usr/include/ppc/types.h
+replace.o: /usr/include/signal.h /usr/include/stdio.h /usr/include/string.h
+replace.o: /usr/include/sys/_endian.h /usr/include/sys/_types.h
+replace.o: /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h
+replace.o: /usr/include/sys/dirent.h /usr/include/sys/fcntl.h
+replace.o: /usr/include/sys/param.h /usr/include/sys/select.h
+replace.o: /usr/include/sys/signal.h /usr/include/sys/stat.h
+replace.o: /usr/include/sys/syslimits.h /usr/include/sys/time.h
+replace.o: /usr/include/sys/types.h /usr/include/sys/unistd.h
+replace.o: /usr/include/time.h /usr/include/unistd.h
+replace.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/limits.h
+replace.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/stdint.h
+replace.o: /usr/lib/gcc/powerpc-apple-darwin8/4.0.1/include/syslimits.h
+replace.o: archive.h extern.h replace.c
+# Dependencies for File: vers.o:
+vers.o: /usr/include/sys/cdefs.h vers.c

@@ -1,0 +1,1 @@
+mkswapconf.d : mkswapconf.c config.h

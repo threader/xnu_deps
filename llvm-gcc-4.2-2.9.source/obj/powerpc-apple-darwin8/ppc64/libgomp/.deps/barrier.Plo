@@ -1,0 +1,100 @@
+barrier.lo barrier.o: ../../../../libgomp/barrier.c \
+  ../../../../libgomp/libgomp.h config.h gstdint.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/types.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/appleapiopts.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/cdefs.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/types.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/ppc/types.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/ppc/_types.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/_types.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/_types.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/endian.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/ppc/endian.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/_endian.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdint.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/libkern/OSByteOrder.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/libkern/ppc/OSByteOrder.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/pthread.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/_types.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/pthread_impl.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/sched.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/time.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/_limits.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/ppc/_limits.h \
+  /Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/llvm-gcc-4.2-2.9.source/obj/./gcc/include/stdbool.h \
+  ../../../../libgomp/config/posix/sem.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/semaphore.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/fcntl.h \
+  /Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/semaphore.h \
+  ../../../../libgomp/config/posix/mutex.h \
+  ../../../../libgomp/config/posix/bar.h ../../../../libgomp/libgomp_g.h \
+  ../../../../libgomp/config/posix/omp-lock.h \
+  ../../../../libgomp/omp.h.in
+
+../../../../libgomp/libgomp.h:
+
+config.h:
+
+gstdint.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/types.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/appleapiopts.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/cdefs.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/types.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/ppc/types.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/ppc/_types.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/_types.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/_types.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/endian.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/ppc/endian.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/_endian.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdint.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/libkern/OSByteOrder.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/libkern/ppc/OSByteOrder.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/pthread.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/_types.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/pthread_impl.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sched.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/time.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/_limits.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/ppc/_limits.h:
+
+/Users/mikemike/dev/ppc/xnu/xnu-ppc/xnu-792.25.20-deps/llvm-gcc-4.2-2.9.source/obj/./gcc/include/stdbool.h:
+
+../../../../libgomp/config/posix/sem.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/semaphore.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/fcntl.h:
+
+/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/semaphore.h:
+
+../../../../libgomp/config/posix/mutex.h:
+
+../../../../libgomp/config/posix/bar.h:
+
+../../../../libgomp/libgomp_g.h:
+
+../../../../libgomp/config/posix/omp-lock.h:
+
+../../../../libgomp/omp.h.in:

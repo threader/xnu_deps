@@ -1,0 +1,1 @@
+searchp.o: searchp.c

@@ -1,0 +1,1 @@
+#define BM 0

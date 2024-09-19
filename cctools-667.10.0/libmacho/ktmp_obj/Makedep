@@ -1,0 +1,59 @@
+# Dependencies for File: arch.o:
+arch.o: ../arch.c
+# Dependencies for File: get_end.o:
+get_end.o: ../get_end.c
+# Dependencies for File: getsecbyname.o:
+getsecbyname.o: ../getsecbyname.c
+# Dependencies for File: getsegbyname.o:
+getsegbyname.o: ../../include/mach-o/ldsyms.h ../../include/mach-o/loader.h
+getsegbyname.o: ../../include/mach/machine.h ../getsegbyname.c
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/architecture/byte_order.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/libkern/ppc/OSByteOrder.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/_types.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/boolean.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/kern_return.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/thread_status.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/ppc/vm_types.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/_types.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/endian.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/types.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/ppc/vmparam.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/string.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/resource.h
+getsegbyname.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+# Dependencies for File: hppa_swap.o:
+hppa_swap.o: ../hppa_swap.c
+# Dependencies for File: i386_swap.o:
+i386_swap.o: ../i386_swap.c
+# Dependencies for File: i860_swap.o:
+i860_swap.o: ../i860_swap.c
+# Dependencies for File: m68k_swap.o:
+m68k_swap.o: ../m68k_swap.c
+# Dependencies for File: m88k_swap.o:
+m88k_swap.o: ../m88k_swap.c
+# Dependencies for File: ppc_swap.o:
+ppc_swap.o: ../ppc_swap.c
+# Dependencies for File: sparc_swap.o:
+sparc_swap.o: ../sparc_swap.c
+# Dependencies for File: swap.o:
+swap.o: ../swap.c
+# Dependencies for File: vers.o:
+vers.o: /System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h vers.c
